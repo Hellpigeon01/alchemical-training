@@ -1,8 +1,8 @@
 <script>
-	import Slider from '../components/slider.svelte';
+	import MyCarousel from '../components/mycarousel.svelte';
 </script>
-
-<div><Slider /></div>
+<h1>This is a Test</h1>
+<div><MyCarousel /></div>
 
 <style>
 </style>
