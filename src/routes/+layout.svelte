@@ -3,7 +3,7 @@
 	import './global.css';
 </script>
 
-<div class="container"><slot /></div>
+<div><slot /></div>
 
 <style>
 </style>

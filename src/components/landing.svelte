@@ -24,7 +24,26 @@
 <section>
 	<div class="landing-container">
 		<div class="box-fifty">
-			<h1>Alchemical Training</h1>
+			<div>
+				<img src="src/routes/images/AT-Logo.svg" class="logo" alt="Alchemical Training Logo" />
+			</div>
+			<div><h1>ALCHEMICAL TRAINING</h1></div>
+			<div><h2>We've Got Your Formula</h2></div>
+			<div>
+				<p>
+					<i>al·chem·i·cal</i> (adj) involving a seemingly magical process of transformation, creation,
+					or combination.
+				</p>
+			</div>
+			<div>
+				<p>
+					Alchemical Training, established by Abigail Crowe, is dedicated to providing professional
+					coaching services to clients worldwide. Our mission is to foster a strong community of
+					clients and trainers, regardless of geographic boundaries. At Alchemical Training, we
+					believe that with commitment and discipline, anyone can transform their life and achieve
+					their fullest potential.
+				</p>
+			</div>
 		</div>
 		<div class="slider box-fifty">
 			{#each images as image, index}
@@ -42,6 +61,17 @@
 </section>
 
 <style>
+	p {
+		text-align: left;
+		width: 90%;
+		margin: 0;
+		padding: 20px;
+	}
+	.logo {
+		width: 300px;
+		height: auto;
+		padding: 30px;
+	}
 	.landing-container {
 		width: 100%;
 		display: flex;
@@ -57,17 +87,20 @@
 		width: 100%;
 		padding: 20px;
 		box-sizing: border-box;
+		text-align: center;
 	}
 
 	.slider {
 		position: relative;
 		width: 100%;
-		height: 800px; /* Adjust height as needed */
+		height: 775px; /* Adjust height as needed */
 		overflow: hidden;
 		perspective: 1000px; /* Add perspective */
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		border-radius: 15px;
+		margin: 10px;
 	}
 
 	.slider img {
