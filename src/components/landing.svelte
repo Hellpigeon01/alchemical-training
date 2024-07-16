@@ -27,12 +27,13 @@
 			<div>
 				<img src="src/routes/images/AT-Logo.svg" class="logo" alt="Alchemical Training Logo" />
 			</div>
-			<div><h1>ALCHEMICAL TRAINING</h1></div>
-			<div><h2>We've Got Your Formula</h2></div>
+			<div><h1>ALCHEMICAL</h1></div>
+			<div><h2>TRAINING</h2></div>
+			<div><h3>We've Got Your Formula</h3></div>
 			<div>
 				<p>
-					<i>al·chem·i·cal</i> (adj) involving a seemingly magical process of transformation, creation,
-					or combination.
+					<i>al·chem·i·cal</i> (adj) involving a seemingly magical process <br />of transformation,
+					creation, or combination.
 				</p>
 			</div>
 			<div>
@@ -61,8 +62,31 @@
 </section>
 
 <style>
+	@keyframes shine {
+		0% {
+			background-position: -200%;
+		}
+		100% {
+			background-position: 200%;
+		}
+	}
+
+	h1 {
+		font-size: 4rem;
+		font-weight: 800;
+		background: linear-gradient(120deg, #f0f0f0, #6a6a6a, #f0f0f0);
+		background-size: 200% auto;
+		color: #000;
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: shine 10s linear infinite;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
 	p {
-		text-align: left;
+		text-align: center;
 		width: 90%;
 		margin: 0;
 		padding: 20px;
@@ -70,8 +94,8 @@
 	.logo {
 		width: 300px;
 		height: auto;
-		padding: 30px;
 	}
+
 	.landing-container {
 		width: 100%;
 		display: flex;
@@ -101,6 +125,7 @@
 		justify-content: center;
 		border-radius: 15px;
 		margin: 10px;
+		border: 4px solid #000;
 	}
 
 	.slider img {
