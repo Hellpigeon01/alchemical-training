@@ -28,7 +28,14 @@
 		</div>
 		<div class="slider box-fifty">
 			{#each images as image, index}
-				<img src={image} alt="Slideshow Image" class:active={index === currentImageIndex} />
+				<img
+					src={image}
+					alt="Slideshow Image"
+					class="{index === currentImageIndex ? 'active' : ''} {index ===
+					(currentImageIndex - 1 + images.length) % images.length
+						? 'previous'
+						: ''}"
+				/>
 			{/each}
 		</div>
 	</div>
@@ -57,6 +64,7 @@
 		width: 100%;
 		height: 600px; /* Adjust height as needed */
 		overflow: hidden;
+		perspective: 1000px; /* Add perspective */
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -71,18 +79,18 @@
 			opacity 1s ease-in-out,
 			transform 1s ease-in-out;
 		opacity: 0;
-		transform: translateX(100%) rotateY(45deg);
+		transform: translateX(100%) rotateY(90deg); /* Start from right off-screen */
 		backface-visibility: hidden;
 	}
 
 	.slider img.active {
 		opacity: 1;
-		transform: translateX(0) rotateY(0deg);
+		transform: translateX(0) rotateY(0deg); /* Move to center */
 	}
 
 	.slider img.previous {
 		opacity: 0;
-		transform: translateX(-100%) rotateY(-45deg);
+		transform: translateX(-100%) rotateY(-90deg); /* Move to left off-screen */
 	}
 
 	@media (max-width: 768px) {
