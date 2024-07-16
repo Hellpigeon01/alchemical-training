@@ -30,7 +30,7 @@
 			{#each images as image, index}
 				<img
 					src={image}
-					alt="Slideshow Image"
+					alt="Slide Show of Atheletes"
 					class="{index === currentImageIndex ? 'active' : ''} {index ===
 					(currentImageIndex - 1 + images.length) % images.length
 						? 'previous'
@@ -62,7 +62,7 @@
 	.slider {
 		position: relative;
 		width: 100%;
-		height: 600px; /* Adjust height as needed */
+		height: 800px; /* Adjust height as needed */
 		overflow: hidden;
 		perspective: 1000px; /* Add perspective */
 		display: flex;
@@ -79,7 +79,7 @@
 			opacity 1s ease-in-out,
 			transform 1s ease-in-out;
 		opacity: 0;
-		transform: translateX(100%) rotateY(90deg); /* Start from right off-screen */
+		transform: translateX(100%) rotateY(45deg); /* Start from right off-screen */
 		backface-visibility: hidden;
 	}
 
@@ -90,7 +90,7 @@
 
 	.slider img.previous {
 		opacity: 0;
-		transform: translateX(-100%) rotateY(-90deg); /* Move to left off-screen */
+		transform: translateX(-100%) rotateY(-45deg); /* Move to left off-screen */
 	}
 
 	@media (max-width: 768px) {
