@@ -1,4 +1,4 @@
-<script>
+<script lang="js">
 	import { register } from 'swiper/element/bundle';
 
 	register();
@@ -11,20 +11,21 @@
 	const onSlideChange = (e) => {
 		console.log('slide changed');
 	};
+
+	const breakpoints = {
+		768: {
+			slidesPerView: 3,
+			spaceBetween: 10
+		}
+	};
 </script>
 
 <swiper-container
 	slides-per-view={3}
 	space-between={spaceBetween}
 	centered-slides={true}
-	pagination={{
-		hideOnClick: true
-	}}
-	breakpoints={{
-		768: {
-			slidesPerView: 3
-		}
-	}}
+	pagination={{ hideOnClick: false }}
+	breakpoints={JSON.stringify(breakpoints)}
 	on:swiperprogress={onProgress}
 	on:swiperslidechange={onSlideChange}
 >
