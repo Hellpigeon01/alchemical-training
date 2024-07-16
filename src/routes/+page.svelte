@@ -1,8 +1,8 @@
 <script>
-	import MyCarousel from '../components/mycarousel.svelte';
+	import Landing from '../components/landing.svelte';
 </script>
-<h1>This is a Test</h1>
-<div><MyCarousel /></div>
+
+<section><Landing /></section>
 
 <style>
 </style>
