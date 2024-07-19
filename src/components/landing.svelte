@@ -74,7 +74,7 @@
 	h1 {
 		font-size: 4rem;
 		font-weight: 800;
-		background: linear-gradient(120deg, #f0f0f0, #6a6a6a, #f0f0f0);
+		background: linear-gradient(120deg, #ffffff, #3d3d3d, #f0f0f0);
 		background-size: 200% auto;
 		color: #000;
 		background-clip: text;
@@ -151,7 +151,7 @@
 		transform: translateX(-100%) rotateY(-45deg); /* Move to left off-screen */
 	}
 
-	@media (max-width: 768px) {
+	@media (max-width: 800px) {
 		.box-fifty {
 			width: 100%;
 		}

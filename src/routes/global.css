@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: #0b0d10; /* Your desired background color */
 	  background-image: url('src/routes/images/formulas.jpg'); /* Replace with the path to your image */
@@ -12,6 +16,7 @@ body {
   }
 
   h2 {
+    text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
     margin: 0;
