@@ -6,7 +6,9 @@
 	<div class="partners">
 		<div class="partner-info">
 			<h3>Real Recovery</h3>
-			<img src="src/routes/images/realRecovery.webp" alt="Real Recovery Logo" />
+			<a href="https://realrecoverytlh.com/" target="_blank" alt="Real Recovery Link"
+				><img src="src/routes/images/realRecovery.webp" alt="Real Recovery Logo" /></a
+			>
 		</div>
 		<div class="partner-description">
 			<p>
@@ -51,7 +53,9 @@
 	<div class="partners">
 		<div class="partner-info">
 			<h3>1st Phorm</h3>
-			<img src="src/routes/images/1stphorm.webp" alt="Real Recovery Logo" />
+			<a href="https://1stphorm.com/?a_aid=abigailcrowe" target="_blank" alt="1st Phorm Link"
+				><img src="src/routes/images/1stphorm.webp" alt="1st Phorm Logo" /></a
+			>
 		</div>
 		<div class="partner-description">
 			<p>
@@ -61,7 +65,7 @@
 			<p>
 				"It is up to you to take steps against the grain, against all odds, against all negative
 				influences, against all the nonbelievers and move forward daily with all of your heart. It
-				is up to you to believe in yourself. It’s up to you to have the courage to be the best. It
+				is up to you to believe in yourself. It's up to you to have the courage to be the best. It
 				is up to you to Never Settle."
 			</p>
 		</div>
