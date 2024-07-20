@@ -108,13 +108,12 @@
 		text-align: center;
 		color: #fff;
 		font-weight: bold;
-
 		background-color: rgba(0, 0, 0, 0.5);
 	}
 
 	.backup-img {
 		flex: 1;
-		background-image: url('/images/abigail.webp');
+		background-image: url('/src/images/abigail.webp');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;

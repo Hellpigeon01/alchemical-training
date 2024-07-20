@@ -2,7 +2,11 @@
 	import { onMount } from 'svelte';
 
 	let currentImageIndex = 0;
-	const images = ['images/form-slider.jpg', 'images/medal-slider.jpg', 'images/run-slider.jpg'];
+	const images = [
+		'src/images/form-slider.jpg',
+		'src/images/medal-slider.jpg',
+		'src/images/run-slider.jpg'
+	];
 
 	let interval;
 
