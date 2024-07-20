@@ -156,7 +156,7 @@
 			width: 100%;
 		}
 		.slider {
-			height: 300px; /* Adjust height for smaller screens */
+			height: 500px; /* Adjust height for smaller screens */
 		}
 	}
 </style>
