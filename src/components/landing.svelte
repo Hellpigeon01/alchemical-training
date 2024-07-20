@@ -3,9 +3,9 @@
 
 	let currentImageIndex = 0;
 	const images = [
-		'src/images/form-slider.jpg',
-		'src/images/medal-slider.jpg',
-		'src/images/run-slider.jpg'
+		'./src/images/form-slider.jpg',
+		'./src/images/medal-slider.jpg',
+		'./src/images/run-slider.jpg'
 	];
 
 	let interval;
@@ -25,7 +25,7 @@
 	<div class="landing-container">
 		<div class="box-fifty">
 			<div>
-				<img src="images/AT-Logo.svg" class="logo" alt="Alchemical Training Logo" />
+				<img src="./src/images/AT-Logo.svg" class="logo" alt="Alchemical Training Logo" />
 			</div>
 			<div><h1>ALCHEMICAL</h1></div>
 			<div><h2>TRAINING</h2></div>
