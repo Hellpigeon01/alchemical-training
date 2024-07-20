@@ -113,7 +113,7 @@
 
 	.backup-img {
 		flex: 1;
-		background-image: url('abigail.webp');
+		background-image: url('../abigail.webp');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
