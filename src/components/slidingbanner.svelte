@@ -84,7 +84,7 @@
 
 <style>
 	:root {
-		--dark: #252a2e;
+		--dark: #000000;
 		--light: #f5f5f5;
 		--background: var(--light);
 		--text: var(--dark);
