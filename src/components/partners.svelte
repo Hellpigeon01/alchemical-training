@@ -7,7 +7,7 @@
 		<div class="partner-info">
 			<h3>Real Recovery</h3>
 			<a href="https://realrecoverytlh.com/" target="_blank" alt="Real Recovery Link"
-				><img src="../RR_logo-04-1024x1024.png" alt="Real Recovery Logo" /></a
+				><img src="/images/RR_logo-04-1024x1024.png" alt="Real Recovery Logo" /></a
 			>
 		</div>
 		<div class="partner-description">
@@ -43,7 +43,7 @@
 		<div class="partner-info">
 			<h3>1st Phorm</h3>
 			<a href="https://1stphorm.com/?a_aid=abigailcrowe" target="_blank" alt="1st Phorm Link"
-				><img src="../1stphorm.webp" alt="1st Phorm Logo" /></a
+				><img src="/images/1stphorm.webp" alt="1st Phorm Logo" /></a
 			>
 		</div>
 		<div class="partner-description">
