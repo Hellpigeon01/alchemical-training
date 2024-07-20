@@ -38,7 +38,7 @@
 					is one that goes out into the world ready to win. I hope to be a part of your wins.
 				</p>
 			</div>
-			<div class="list">
+			<div class="list backup-img">
 				<ul>
 					<li>Founder of Alchemical Training</li>
 					<li>B.S. Exercise Physiology</li>
@@ -61,27 +61,14 @@
 			background-position: 200%;
 		}
 	}
-	h2 {
-		font-size: 2rem;
-		font-weight: 800;
-		background: linear-gradient(120deg, #ffffff, #3d3d3d, #f0f0f0);
-		background-size: 200% auto;
-		color: #000;
-		background-clip: text;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		animation: shine 10s linear infinite;
-		margin-top: 0px;
-		margin-bottom: 0px;
-		text-align: center;
-	}
 
 	.about {
 		display: flex;
 		flex-direction: column;
 		width: 80%;
 		margin: 0 auto;
-		font-size: 1rem;
+		margin-bottom: 20px;
+		font-size: 1.25rem;
 	}
 
 	.alchemical {
@@ -94,7 +81,7 @@
 		flex-direction: row;
 		width: 100%;
 		margin: 0 auto;
-		font-size: 1rem;
+		font-size: 1.25rem;
 		gap: 20px;
 	}
 
@@ -114,8 +101,35 @@
 	.abigail .list {
 		width: 30%;
 		display: flex;
-		align-items: center; /* Center the bullet list vertically */
-		font-size: 1.5rem;
+		align-items: flex-end;
+		justify-content: center;
+		position: relative;
+		font-size: 1.25rem;
+	}
+
+	.abigail .list ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		color: #fff;
+		font-weight: bold;
+		border: 2px solid #6b6b6b;
+		padding: 10px;
+		background-color: rgba(0, 0, 0, 0.5);
+		border-radius: 10px;
+	}
+
+	.abigail .list ul li {
+		padding: 5px 0;
+	}
+
+	.backup-img {
+		flex: 1;
+		background-image: url('../images/abigail.webp');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 
 	@media (max-width: 768px) {

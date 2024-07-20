@@ -32,6 +32,10 @@
 		<About />
 	</section>
 
+	<section id="services">
+		<h2>Our Services</h2>
+	</section>
+
 	<section class="quote">
 		<div>
 			<p>
@@ -56,31 +60,31 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		background-color: #808080;
 		font-size: 1.5em;
 		font-style: italic;
 		text-align: center;
 		color: #fff;
 		padding: 60px;
 		margin: 20px auto;
-		width: 90%;
-		border-radius: 15px;
+		width: 100%;
+		background-image: url('../images/weights_bw.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
+
 	.quote div {
 		flex: 1;
 	}
 
 	.quote p {
 		margin: 0;
-	}
-
-	strong {
-		color: #e26600;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add drop shadow */
 	}
 
 	@media (max-width: 768px) {
 		.quote {
-			width: 95%;
+			width: 100%;
 			padding: 20px 0;
 			flex-direction: column;
 			align-items: center;
