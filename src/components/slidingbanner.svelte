@@ -116,10 +116,12 @@
 
 	.tag-scrollers {
 		width: 100%;
-		max-width: 1200px;
+		max-width: 90%;
 		overflow: hidden;
 		margin: 0 auto;
+		margin-top: 20px;
 		padding: 5px;
+		background-color: #000000;
 	}
 
 	.tag-scroller {

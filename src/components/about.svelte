@@ -6,36 +6,36 @@
 	<div class="about">
 		<div class="alchemical">
 			<p>
-				Alchemical Training is founded on core principles: integrity, trust, consistency, and
-				transparency. Just as the human body operates on principles of joint mechanics, muscle
-				function, and stability hubs, we tailor our approach to each individual. We consider your
+				Alchemical Training is built on the principles of integrity, trust, consistency, and
+				transparency. Just as the human body relies on joint mechanics, muscle function, and
+				stability hubs, we customize our approach to each individual. We take into account your
 				goals, health history, training background, and stressors to create a personalized plan.
-				Alchemical Training is committed to delivering lasting results, eschewing flashy or quick
-				fixes. We offer an educated, long-term approach to quality movement, improved lifestyle, and
-				unlocking your athletic potential, no matter your age.
+				Committed to delivering lasting results without relying on quick fixes, Alchemical Training
+				offers a knowledgeable, long-term approach to quality movement, an improved lifestyle, and
+				unlocking your athletic potential at any age.
 			</p>
 		</div>
 		<div class="abigail">
 			<div class="content">
 				<h2>Abigail Crowe</h2>
 				<p>
-					I've spent thousands of hours training clients and exponentially more preparing to train
-					them. Every moment spent acquiring certifications, graduating college, studying, lifting,
-					and personal training has been driven by a pursuit of excellence and service to others. My
-					purpose in this life has nothing to do with me. I love my job because I witness people
-					grow into themselves, becoming autonomous, more confident, pain-free, and physically and
-					mentally stronger.
+					I have dedicated thousands of hours to training clients, and countless more preparing
+					personalized sessions. Every moment spent acquiring certifications, graduating college,
+					studying, lifting, and personal training has been driven by a pursuit of excellence and a
+					desire to serve others. My purpose in life is centered around my clients, not myself. I
+					love my job because I see people transform, becoming autonomous, more confident,
+					pain-free, and stronger both physically and mentally.
 				</p>
 				<p>
-					I observe an alchemical process unfold, even though the time and effort invested by both
-					me and my clients is calculated and methodical.
+					I witness an alchemical process unfold, despite the calculated and methodical efforts put
+					in by both my clients and me.
 				</p>
 				<p>
-					Strength training is a significant commitment. It can seem overwhelming or even dangerous.
-					But strength comes in many forms, and with my clients, my goal is to help them reach their
-					goals through any modality required, whether that be strength, stability, power,
+					Strength training is a significant commitment and can often seem overwhelming or even
+					dangerous. However, strength comes in many forms. My goal is to help clients achieve their
+					objectives through any necessary modality—whether it's strength, stability, power,
 					endurance, or more. A healthy, prepared human is a confident human, and a confident human
-					is one that goes out into the world ready to win. I hope to be a part of your wins.
+					is ready to conquer the world. I hope to be a part of your journey to success.
 				</p>
 			</div>
 			<div class="list backup-img">
@@ -72,56 +72,44 @@
 	}
 
 	.alchemical {
-		width: 100%;
+		width: 80%;
+		margin: 0 auto;
 		margin-bottom: 20px;
+		padding: 20px;
 	}
 
 	.abigail {
 		display: flex;
 		flex-direction: row;
-		width: 100%;
 		margin: 0 auto;
 		font-size: 1.25rem;
-		gap: 20px;
+		padding: 20px;
 	}
 
 	.abigail .content,
 	.abigail .list {
 		flex: 1;
-		background-color: rgba(51, 51, 51, 0.808);
-		border-radius: 15px;
-		border: 3px solid #6b6b6b;
 		padding: 20px;
-	}
-
-	.abigail .content {
-		width: 70%;
+		background-color: rgba(0, 0, 0, 0.5);
 	}
 
 	.abigail .list {
-		width: 30%;
 		display: flex;
 		align-items: flex-end;
-		justify-content: center;
-		position: relative;
+		justify-content: left;
 		font-size: 1.25rem;
 	}
 
 	.abigail .list ul {
+		width: 100%;
 		list-style-type: none;
 		padding: 0;
 		margin: 0;
 		text-align: center;
 		color: #fff;
 		font-weight: bold;
-		border: 2px solid #6b6b6b;
-		padding: 10px;
-		background-color: rgba(0, 0, 0, 0.5);
-		border-radius: 10px;
-	}
 
-	.abigail .list ul li {
-		padding: 5px 0;
+		background-color: rgba(0, 0, 0, 0.5);
 	}
 
 	.backup-img {

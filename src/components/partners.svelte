@@ -11,14 +11,10 @@
 			>
 		</div>
 		<div class="partner-description">
-			<p>
-				The Real Recovery Team is led by <strong>Dr. Haley Brown</strong>, Osteopractor (DPT, Cert.
-				DN, Cert. SMT. FAAOMPT) with experts, <strong>Dr. Logan</strong> (DPT, Cert. DN),
-				<strong>Dr. Annmarie</strong>
-				(DPT, Cert. DN, OCS) and <strong>Dr. Nicole</strong> (DPT).
-			</p>
-
-			<p>Services provided:</p>
+			The Real Recovery Team is led by <strong>Dr. Haley Brown</strong>, Osteopractor (DPT, Cert.
+			DN, Cert. SMT. FAAOMPT) with experts, <strong>Dr. Logan</strong> (DPT, Cert. DN),
+			<strong>Dr. Annmarie</strong>
+			(DPT, Cert. DN, OCS) and <strong>Dr. Nicole</strong> (DPT). Services provided:
 			<ul>
 				<li>dry needling</li>
 				<li>cupping</li>
@@ -29,13 +25,6 @@
 				<li>return to sport programming</li>
 				<li>pre-hab and advanced post-operative strengthening</li>
 			</ul>
-
-			<p>
-				<strong>Their mission:</strong> “To offer a healthcare experience like no other, providing active
-				individuals with a personalized recovery program focusing on injury prevention, optimization
-				of movement, athlete performance, return to sport/training, and developing proper lifelong health
-				and wellness habits.”
-			</p>
 
 			<p>
 				Alchemical Training is honored to work with the Real Recovery team to keep all
@@ -76,18 +65,25 @@
 	.partners {
 		display: flex;
 		flex-direction: row;
+		background-color: #fff;
+		color: black;
 		width: 80%;
-		gap: 20px;
-		padding: 20px;
+		align-items: center;
 		border-bottom: 2px solid #808080;
 		margin: 0 auto;
 	}
 	.partner-info {
 		flex: 1;
 		text-align: center;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: center; /* Center vertically */
+		align-items: center; /* Center horizontally */
 	}
 	.partner-description {
 		flex: 2;
+		padding: 20px;
 	}
 	.partners img {
 		width: 200px;

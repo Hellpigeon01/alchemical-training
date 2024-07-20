@@ -53,6 +53,7 @@
 			<a href="#services" on:click={closeMenu} alt="Our Services">SERVICES</a>
 			<a href="#partners" on:click={closeMenu} alt="Our Partners">PARTNERS</a>
 			<a href="#testimony" on:click={closeMenu} alt="What Our Clients are Saying">TESTIMONIALS</a>
+			<a href="#blog" on:click={closeMenu} alt="Alchemical-Training Blog">BLOG</a>
 			<a href="#contact" on:click={closeMenu} alt="Get in Touch">CONTACT US!</a>
 			<a href="#" on:click={openModal} alt="Get a Consult">Free! Consultation</a>
 			<hr />

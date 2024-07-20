@@ -15,7 +15,7 @@
 
 <main>
 	<section><SlidingBanner /></section>
-	<section class="quote">
+	<section class="quote margin">
 		<div>
 			<p>
 				“And, when you want something, all the universe conspires<br /> in helping you to achieve
@@ -32,11 +32,11 @@
 		<About />
 	</section>
 
-	<section id="services">
+	<section id="services" class="margin">
 		<h2>Our Services</h2>
 	</section>
 
-	<section class="quote">
+	<section class="quote margin">
 		<div>
 			<p>
 				“When we strive to become better than we are,<br /> everything around us becomes better,
@@ -50,7 +50,7 @@
 		</div>
 	</section>
 
-	<section id="partners">
+	<section id="partners" class="margin">
 		<Partners />
 	</section>
 </main>
@@ -67,10 +67,12 @@
 		padding: 60px;
 		margin: 20px auto;
 		width: 100%;
+		box-sizing: border-box; /* Include padding in the width calculation */
 		background-image: url('../images/weights_bw.jpg');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
+		overflow: hidden; /* Prevent overflow causing scrollbars */
 	}
 
 	.quote div {
@@ -80,6 +82,11 @@
 	.quote p {
 		margin: 0;
 		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add drop shadow */
+	}
+
+	.margin {
+		margin-top: 60px;
+		margin-bottom: 60px;
 	}
 
 	@media (max-width: 768px) {

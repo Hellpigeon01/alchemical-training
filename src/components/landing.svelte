@@ -38,11 +38,10 @@
 			</div>
 			<div>
 				<p>
-					Alchemical Training, established by Abigail Crowe, is dedicated to providing professional
-					coaching services to clients worldwide. Our mission is to foster a strong community of
-					clients and trainers, regardless of geographic boundaries. At Alchemical Training, we
-					believe that with commitment and discipline, anyone can transform their life and achieve
-					their fullest potential.
+					Alchemical Training is dedicated to providing professional coaching services to clients
+					worldwide. Our mission is to foster a strong community of clients and trainers, regardless
+					of geographic boundaries. At Alchemical Training, we believe that with commitment and
+					discipline, anyone can transform their life and achieve their fullest potential.
 				</p>
 			</div>
 		</div>
@@ -123,9 +122,6 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border-radius: 15px;
-		margin: 10px;
-		border: 4px solid #000;
 	}
 
 	.slider img {
