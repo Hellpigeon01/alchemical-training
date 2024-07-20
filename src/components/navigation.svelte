@@ -50,11 +50,10 @@
 		<div class="container darkGray pullRightLeft">
 			<a href="#home" on:click={closeMenu} alt="Back to the Top">TOP</a>
 			<a href="#about" on:click={closeMenu} alt="About Alchemical Training">ABOUT</a>
+			<a href="#services" on:click={closeMenu} alt="Our Services">SERVICES</a>
 			<a href="#partners" on:click={closeMenu} alt="Our Partners">PARTNERS</a>
-			<a href="testimony" on:click={closeMenu} alt="What Our Clients are Saying"
-				>What Our Clients Say</a
-			>
-			<a href="contact" on:click={closeMenu} alt="Get in Touch">CONTACT US!</a>
+			<a href="#testimony" on:click={closeMenu} alt="What Our Clients are Saying">TESTIMONIALS</a>
+			<a href="#contact" on:click={closeMenu} alt="Get in Touch">CONTACT US!</a>
 			<a href="#" on:click={openModal} alt="Get a Consult">Free! Consultation</a>
 			<hr />
 			<a href="#" on:click={toggleSubMenu} alt="Social Media Menu">Social Media</a>
