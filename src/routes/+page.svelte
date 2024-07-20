@@ -68,7 +68,7 @@
 		margin: 20px auto;
 		width: 100%;
 		box-sizing: border-box; /* Include padding in the width calculation */
-		background-image: url('/src/images/weights_bw.jpg');
+		background-image: url('weights_bw.jpg');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
