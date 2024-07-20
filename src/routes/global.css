@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: #000000;
-	  background-image: url('./images/formulas.jpg');
+	  background-image: url('images/formulas.jpg');
 	  background-attachment: fixed;
 	  background-position: center;
 	  background-size: cover; 
