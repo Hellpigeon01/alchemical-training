@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: #0b0d10; /* Your desired background color */
-	  background-image: url('src/routes/images/formulas.jpg'); /* Replace with the path to your image */
+	  background-image: url('./images/formulas.jpg'); /* Replace with the path to your image */
 	  background-attachment: fixed; /* Makes the background image fixed */
 	  background-position: center; /* Centers the background image */
 	  background-size: cover; /* Ensures the background image covers the entire viewport */
