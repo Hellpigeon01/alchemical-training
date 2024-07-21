@@ -80,7 +80,7 @@
 	}
 	.reverse h3 {
 		animation: marqueeReverse 60s linear infinite; /* Slowed down animation */
-		color: orange; /* Bottom row text color */
+		color: #ff7000; /* Bottom row text color */
 	}
 	@keyframes marquee {
 		0% {

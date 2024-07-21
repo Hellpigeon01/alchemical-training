@@ -14,7 +14,9 @@
 </header>
 
 <main>
-	<section><SlidingBanner /></section>
+	<SlidingBanner />
+
+	<!-- Banner Quote 1 with Call To Action -->
 	<section class="quote margin">
 		<div>
 			<p>
@@ -85,7 +87,7 @@
 	}
 
 	.margin {
-		margin-top: 60px;
+		margin-top: 30px;
 		margin-bottom: 60px;
 	}
 

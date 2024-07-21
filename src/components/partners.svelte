@@ -11,10 +11,15 @@
 			>
 		</div>
 		<div class="partner-description">
-			The Real Recovery Team is led by <strong>Dr. Haley Brown</strong>, Osteopractor (DPT, Cert.
-			DN, Cert. SMT. FAAOMPT) with experts, <strong>Dr. Logan</strong> (DPT, Cert. DN),
-			<strong>Dr. Annmarie</strong>
-			(DPT, Cert. DN, OCS) and <strong>Dr. Nicole</strong> (DPT). Services provided:
+			<p>
+				The Real Recovery Team is led by <strong>Dr. Haley Brown</strong>, Osteopractor (DPT, Cert.
+			</p>
+			<p>
+				DN, Cert. SMT. FAAOMPT) with experts,<strong>Dr. Logan</strong> (DPT, Cert. DN),
+				<strong>Dr. Annmarie</strong>
+			</p>
+			<p>(DPT, Cert. DN, OCS) and<strong>Dr. Nicole</strong> (DPT). Services provided:</p>
+
 			<ul>
 				<li>dry needling</li>
 				<li>cupping</li>
@@ -97,6 +102,11 @@
 		.partner-description {
 			width: 100%;
 			flex: none;
+		}
+
+		p {
+			font-size: 0.9em;
+			padding: 5px;
 		}
 	}
 </style>
