@@ -1,191 +1,101 @@
 <script>
-	import { onMount } from 'svelte';
-	import { writable } from 'svelte/store';
-
-	let prefersReducedMotion = false;
-	const tagList = [
-		'Private Gym',
-		'On-Line',
-		'Workout Plan',
-		'Fitness Goals',
-		'Strength Training',
-		'Cardio',
-		'Muscle Building',
-		'Home Workouts',
-		'Nutrition',
-		'Personal Training',
-		'Fitness',
-		'Fitness Tips',
-		'Athletic Training',
-		'Weightlifting',
-		'Free Motion Assessment',
-		'Endurance',
-		'Flexibility',
-		'Healthy Choices',
-		'Improved Lifestyle',
-		'Core Stability',
-		'Training',
-		'Self-Improvement',
-		'Warm-Ups',
-		'Form',
-		'Fitness Coaching',
-		'Bodybuilding',
-		'Weightloss'
-	];
-
-	const lists = writable([]);
-
-	function cloneElements(arr) {
-		return arr.map((item) => item);
-	}
-
-	function setupScrolling() {
-		lists.set([[...tagList], [...tagList]].map((list) => [...list, ...cloneElements(list)]));
-	}
-
-	onMount(() => {
-		if (typeof window !== 'undefined') {
-			const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-			prefersReducedMotion = mediaQuery.matches;
-
-			if (!prefersReducedMotion) {
-				setupScrolling();
-			}
-		}
-	});
+	let primaryColor = '#3a1769';
 </script>
 
-<div class="tag-scrollers">
-	{#if !prefersReducedMotion}
-		{#each $lists as list, index}
-			<div
-				class="tag-scroller scrolling"
-				style="--duration: {list.length * 2}s; --direction: {index % 2 === 0
-					? 'normal'
-					: 'reverse'};"
-			>
-				<ul class="tag-list">
-					{#each list as tag}
-						<li>{tag}</li>
-					{/each}
-				</ul>
-			</div>
-		{/each}
-	{:else}
-		<div class="tag-scroller">
-			<ul class="tag-list">
-				{#each tagList as tag}
-					<li>{tag}</li>
-				{/each}
-			</ul>
+<main>
+	<div class="banner-message">
+		<div class="marquee">
+			<h3>
+				Private Gym &bull; One-on-One Training &bull; On-line Training &bull; Workout Plan &bull;
+				Fitness Goals &bull; Strength Training &bull; Cardio &bull; Muscle Building &bull; Home
+				Workouts &bull; Nutrition &bull; Personal Training &bull; Fitness &bull; Fitness Tips &bull;
+				Athletic Training &bull; Weightlifting &bull; Free Motion Assessment &bull; Endurance &bull;
+				Flexibility &bull; Healthy Choices &bull; Improved Lifestyle &bull; Core Stability &bull;
+				Training &bull; Self-Improvement &bull; Warm-Ups &bull; Form &bull; Fitness Coaching &bull;
+				Bodybuilding &bull; Weightloss &bull; Private Gym &bull; One-on-One Training &bull; On-line
+				Training &bull; Workout Plan &bull; Fitness Goals &bull; Strength Training &bull; Cardio
+				&bull; Muscle Building &bull; Home Workouts &bull; Nutrition &bull; Personal Training &bull;
+				Fitness &bull; Fitness Tips &bull; Athletic Training &bull; Weightlifting &bull; Free Motion
+				Assessment &bull; Endurance &bull; Flexibility &bull; Healthy Choices &bull; Improved
+				Lifestyle &bull; Core Stability &bull; Training &bull; Self-Improvement &bull; Warm-Ups
+				&bull; Form &bull; Fitness Coaching &bull; Bodybuilding &bull; Weightloss &bull;
+			</h3>
 		</div>
-	{/if}
-</div>
+		<div class="marquee reverse">
+			<h3>
+				Private Gym &bull; One-on-One Training &bull; On-line Training &bull; Workout Plan &bull;
+				Fitness Goals &bull; Strength Training &bull; Cardio &bull; Muscle Building &bull; Home
+				Workouts &bull; Nutrition &bull; Personal Training &bull; Fitness &bull; Fitness Tips &bull;
+				Athletic Training &bull; Weightlifting &bull; Free Motion Assessment &bull; Endurance &bull;
+				Flexibility &bull; Healthy Choices &bull; Improved Lifestyle &bull; Core Stability &bull;
+				Training &bull; Self-Improvement &bull; Warm-Ups &bull; Form &bull; Fitness Coaching &bull;
+				Bodybuilding &bull; Weightloss &bull; Private Gym &bull; One-on-One Training &bull; On-line
+				Training &bull; Workout Plan &bull; Fitness Goals &bull; Strength Training &bull; Cardio
+				&bull; Muscle Building &bull; Home Workouts &bull; Nutrition &bull; Personal Training &bull;
+				Fitness &bull; Fitness Tips &bull; Athletic Training &bull; Weightlifting &bull; Free Motion
+				Assessment &bull; Endurance &bull; Flexibility &bull; Healthy Choices &bull; Improved
+				Lifestyle &bull; Core Stability &bull; Training &bull; Self-Improvement &bull; Warm-Ups
+				&bull; Form &bull; Fitness Coaching &bull; Bodybuilding &bull; Weightloss &bull;
+			</h3>
+		</div>
+	</div>
+</main>
 
 <style>
 	:root {
-		--dark: #000000;
-		--light: #f5f5f5;
-		--background: var(--light);
-		--text: var(--dark);
-		--border: var(--dark);
+		--primary-color: #{primaryColor};
 	}
-	@media (prefers-color-scheme: dark) {
-		:root {
-			--background: var(--dark);
-			--text: var(--light);
-			--border: var(--light);
-		}
-	}
-	html {
-		box-sizing: border-box;
-	}
-	*,
-	*:before,
-	*:after {
-		box-sizing: inherit;
-	}
-
-	body {
-		display: grid;
-		min-block-size: 100vh;
-		place-content: center;
-		background: var(--background);
-		color: var(--text);
-	}
-
-	.tag-scrollers {
-		width: 100%;
-		max-width: 90%;
-		overflow: hidden;
-		margin: 0 auto;
-		margin-top: 20px;
-		padding: 5px;
-		background-color: #000000;
-	}
-
-	.tag-scroller {
-		display: grid;
-		gap: 1.5rem;
-		mask: linear-gradient(90deg, #0000, var(--background) 15%, var(--background) 85%, #0000);
-	}
-
-	.tag-list {
-		list-style: none;
-		margin: 0;
-		padding: 5px;
+	.banner-message {
+		height: 80px; /* Adjusted height to accommodate more spacing between rows */
+		padding-left: 0;
+		padding-right: 0;
+		background: var(--primary-color);
 		display: flex;
-		flex-wrap: wrap;
-		gap: 1.5rem;
+		flex-direction: column; /* Stacking marquee rows vertically */
+		justify-content: center;
+		overflow: hidden;
+		position: relative;
 	}
-
-	@media (prefers-reduced-motion) {
-		.tag-list {
-			flex-flow: row nowrap;
-			overflow: auto;
-			scrollbar-width: none;
-			scrollbar-color: transparent transparent;
-		}
-		.tag-list::-webkit-scrollbar-track {
-			background: transparent;
-		}
-		.tag-list::-webkit-scrollbar-thumb {
-			background: transparent;
-		}
-		.tag-list::-webkit-scrollbar {
-			display: none;
-			width: 0;
-			height: 0;
-		}
-	}
-
-	.tag-list li {
-		font-family: system-ui;
-		font-size: 1.125rem;
-		line-height: 1;
-		padding: 0.625rem 1.375rem;
-		border: 2px solid var(--border);
-		border-radius: 10ch;
+	.marquee {
+		width: 100%;
+		line-height: 30px;
 		white-space: nowrap;
+		overflow: hidden;
+		box-sizing: border-box;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		word-spacing: 10px;
 	}
-
-	.tag-scroller.scrolling .tag-list {
-		width: max-content;
-		flex-wrap: nowrap;
-		animation: horizontal-scroll var(--duration) var(--direction, normal) linear infinite;
+	.marquee h3 {
+		display: inline-block;
+		color: lightgray; /* Top row text color */
+		margin-top: 5px;
+		margin-bottom: 0;
+		animation: marquee 60s linear infinite; /* Slowed down animation */
+		text-transform: uppercase;
 	}
-
-	.tag-scroller.scrolling .tag-list:nth-child(even) {
-		--direction: reverse;
+	.reverse {
+		top: 50px; /* Added more spacing between the rows */
 	}
-
-	.tag-scroller:hover .tag-list {
-		animation-play-state: paused;
+	.reverse h3 {
+		animation: marqueeReverse 60s linear infinite; /* Slowed down animation */
+		color: orange; /* Bottom row text color */
 	}
-
-	@keyframes horizontal-scroll {
-		to {
-			transform: translateX(calc(-50% - 0.75rem));
+	@keyframes marquee {
+		0% {
+			transform: translate(0, 0);
+		}
+		100% {
+			transform: translate(-50%, 0); /* Adjusted to account for the duplicated text */
+		}
+	}
+	@keyframes marqueeReverse {
+		0% {
+			transform: translate(-50%, 0); /* Start from the end */
+		}
+		100% {
+			transform: translate(0, 0); /* Move to the start */
 		}
 	}
 </style>
