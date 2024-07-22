@@ -21,7 +21,7 @@
 	<div class="landing-container">
 		<div class="box-fifty">
 			<div>
-				<img src="/images/AT-Logo-color.svg" class="logo" alt="Alchemical Training Logo" />
+				<img src="/images/AT-Logo-green.svg" class="logo" alt="Alchemical Training Logo" />
 			</div>
 			<div><h1>ALCHEMICAL</h1></div>
 			<div><h2>TRAINING</h2></div>

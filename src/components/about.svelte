@@ -91,6 +91,7 @@
 		flex: 1;
 		padding: 20px;
 		background-color: rgba(0, 0, 0, 0.5);
+		border-radius: 20px;
 	}
 
 	.abigail .list {
