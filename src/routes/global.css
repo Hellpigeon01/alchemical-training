@@ -1,3 +1,8 @@
+:root {
+	--animation-duration: 30s;
+	--animation-delay: 0s;
+  }
+
 html {
   scroll-behavior: smooth;
 }
@@ -16,27 +21,39 @@ body {
   }
 
   h2 {
-		font-size: 2.75rem;
-		font-weight: 800;
-		background: linear-gradient(45deg, #018F1A, #0026cd, #FFFFFF, #7b0293);
-		background-size: 200% auto;
-		/* color: #000; */
-		background-clip: text;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		animation: shine 30s linear infinite;
-		margin-top: 0px;
-		margin-bottom: 0px;
-		text-align: center;
-	}
+	font-size: 2.75rem;
+	font-weight: 800;
+	background: linear-gradient(20deg, #018F1A, #FFFFFF, #00356e, #FFFFFF, #7b0293);
+	background-size: 200% auto;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: shine var(--animation-duration) linear infinite;
+	animation-delay: var(--animation-delay);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+  }
 
 	@keyframes shine {
 		0% {
 			background-position: -200%;
 		}
 		100% {
-			background-position: 200%;
+			background-position: 100%;
 		}
 	}
 
-	
+	.testimonial {
+		font-size: 1rem;
+		text-align: left;
+		font-family: 'Roboto Condensed', Jost, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+		color: #EEEEEE;
+		padding: 20px;
+	}
+
+	.center {
+		font-size: 1rem;
+		text-align: center;
+		font-family: 'Roboto Condensed', Jost, -apple-system, BlinkMacSystemFont, 'SegoeUI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	}

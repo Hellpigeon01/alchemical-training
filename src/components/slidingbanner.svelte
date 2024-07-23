@@ -46,12 +46,12 @@
 		--primary-color: #{primaryColor};
 	}
 	.banner-message {
-		height: 80px; /* Adjusted height to accommodate more spacing between rows */
+		height: 80px;
 		padding-left: 0;
 		padding-right: 0;
 		background: var(--primary-color);
 		display: flex;
-		flex-direction: column; /* Stacking marquee rows vertically */
+		flex-direction: column;
 		justify-content: center;
 		overflow: hidden;
 		position: relative;
@@ -69,33 +69,33 @@
 	}
 	.marquee h3 {
 		display: inline-block;
-		color: lightgray; /* Top row text color */
+		color: #018f1a;
 		margin-top: 5px;
 		margin-bottom: 0;
-		animation: marquee 60s linear infinite; /* Slowed down animation */
+		animation: marquee 60s linear infinite;
 		text-transform: uppercase;
 	}
 	.reverse {
-		top: 50px; /* Added more spacing between the rows */
+		top: 50px;
 	}
 	.reverse h3 {
-		animation: marqueeReverse 60s linear infinite; /* Slowed down animation */
-		color: #018f1a; /* Bottom row text color */
+		animation: marqueeReverse 60s linear infinite;
+		color: #7b0293;
 	}
 	@keyframes marquee {
 		0% {
 			transform: translate(0, 0);
 		}
 		100% {
-			transform: translate(-50%, 0); /* Adjusted to account for the duplicated text */
+			transform: translate(-50%, 0);
 		}
 	}
 	@keyframes marqueeReverse {
 		0% {
-			transform: translate(-50%, 0); /* Start from the end */
+			transform: translate(-50%, 0);
 		}
 		100% {
-			transform: translate(0, 0); /* Move to the start */
+			transform: translate(0, 0);
 		}
 	}
 </style>

@@ -15,6 +15,7 @@
 				unlocking your athletic potential at any age.
 			</p>
 		</div>
+
 		<div class="abigail">
 			<div class="content">
 				<h2>Abigail Crowe</h2>
@@ -34,8 +35,9 @@
 					Strength training is a significant commitment and can often seem overwhelming or even
 					dangerous. However, strength comes in many forms. My goal is to help clients achieve their
 					objectives through any necessary modality—whether it's strength, stability, power,
-					endurance, or more. A healthy, prepared human is a confident human, and a confident human
-					is ready to conquer the world. I hope to be a part of your journey to success.
+					endurance, or more. A healthy, prepared individual is a confident individual, and a
+					confident people are ready to conquer the world. I hope to be a part of your journey to
+					success.
 				</p>
 			</div>
 			<div class="list backup-img">
@@ -65,14 +67,14 @@
 	.about {
 		display: flex;
 		flex-direction: column;
-		width: 80%;
+		width: 90%;
 		margin: 0 auto;
 		margin-bottom: 20px;
 		font-size: 1.25rem;
 	}
 
 	.alchemical {
-		width: 80%;
+		width: 90%;
 		margin: 0 auto;
 		margin-bottom: 20px;
 		padding: 20px;
@@ -127,7 +129,7 @@
 
 		.abigail .content,
 		.abigail .list {
-			width: 100%;
+			width: 90%;
 		}
 	}
 </style>

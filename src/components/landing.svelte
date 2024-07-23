@@ -1,4 +1,6 @@
 <script>
+	import Modal from '../components/modal.svelte';
+
 	import { onMount } from 'svelte';
 
 	let currentImageIndex = 0;
@@ -24,8 +26,8 @@
 				<img src="/images/AT-Logo-green.svg" class="logo" alt="Alchemical Training Logo" />
 			</div>
 			<div><h1>ALCHEMICAL</h1></div>
-			<div><h2>TRAINING</h2></div>
-			<div><h3>We've Got Your Formula</h3></div>
+			<div><h2 class="h2-1">TRAINING</h2></div>
+			<div><h3>We've Got Your Formula!<br />Redefining Transformation At Any Age...</h3></div>
 			<div>
 				<p>
 					<i>al·chem·i·cal</i> (adj) involving a seemingly magical process <br />of transformation,
@@ -40,6 +42,7 @@
 					discipline, anyone can transform their life and achieve their fullest potential.
 				</p>
 			</div>
+			<Modal />
 		</div>
 		<div class="slider box-fifty">
 			{#each images as image, index}
@@ -69,7 +72,7 @@
 	h1 {
 		font-size: 4rem;
 		font-weight: 800;
-		background: linear-gradient(120deg, #ffffff, #3d3d3d, #f0f0f0);
+		background: linear-gradient(10deg, #ffffff, #606060, #ffffff);
 		background-size: 200% auto;
 		color: #000;
 		background-clip: text;

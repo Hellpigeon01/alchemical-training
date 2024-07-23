@@ -5,9 +5,8 @@
 	<h2>Our Partners</h2>
 	<div class="partners">
 		<div class="partner-info">
-			<h3>Real Recovery</h3>
 			<a href="https://realrecoverytlh.com/" target="_blank" alt="Real Recovery Link"
-				><img src="/images/RR_logo-04-1024x1024.png" alt="Real Recovery Logo" /></a
+				><img src="/images/realRecovery.webp" alt="Real Recovery Logo" /></a
 			>
 		</div>
 		<div class="partner-description">
@@ -46,7 +45,6 @@
 
 	<div class="partners">
 		<div class="partner-info">
-			<h3>1st Phorm</h3>
 			<a href="https://1stphorm.com/?a_aid=abigailcrowe" target="_blank" alt="1st Phorm Link"
 				><img src="/images/1stphorm.webp" alt="1st Phorm Logo" /></a
 			>
@@ -70,17 +68,15 @@
 	.partners {
 		display: flex;
 		flex-direction: row;
-		background-color: #fff;
-		color: black;
+		color: #ffffff;
+		background-color: rgba(0, 0, 0, 0.5);
 		width: 80%;
 		align-items: center;
-		border-bottom: 2px solid #808080;
 		margin: 0 auto;
 	}
 	.partner-info {
 		flex: 1;
 		text-align: center;
-		background-color: white;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

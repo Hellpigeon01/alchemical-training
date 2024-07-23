@@ -50,7 +50,6 @@
 		<div class="container darkGray pullRightLeft">
 			<a href="#home" on:click={closeMenu} alt="Back to the Top">TOP</a>
 			<a href="#about" on:click={closeMenu} alt="About Alchemical Training">ABOUT</a>
-			<a href="#services" on:click={closeMenu} alt="Our Services">SERVICES</a>
 			<a href="#partners" on:click={closeMenu} alt="Our Partners">PARTNERS</a>
 			<a href="#testimony" on:click={closeMenu} alt="What Our Clients are Saying">TESTIMONIALS</a>
 			<a href="#blog" on:click={closeMenu} alt="Alchemical-Training Blog">BLOG</a>
