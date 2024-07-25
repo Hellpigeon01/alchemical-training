@@ -15,10 +15,19 @@
 				unlocking your athletic potential at any age.
 			</p>
 		</div>
-
+		<h2>Abigail Crowe</h2>
 		<div class="abigail">
+			<div class="list backup-img">
+				<ul>
+					<li>Founder of Alchemical Training</li>
+					<li>B.S. Exercise Physiology</li>
+					<li>NASM CPT</li>
+					<li>PPSC certified</li>
+					<li>Prescript L1/L2/L3/Skill Acquisition certified</li>
+					<li>5 Years Coaching Experience</li>
+				</ul>
+			</div>
 			<div class="content">
-				<h2>Abigail Crowe</h2>
 				<p>
 					I have dedicated thousands of hours to training clients, and countless more preparing
 					personalized sessions. Every moment spent acquiring certifications, graduating college,
@@ -40,16 +49,6 @@
 					success.
 				</p>
 			</div>
-			<div class="list backup-img">
-				<ul>
-					<li>Founder of Alchemical Training</li>
-					<li>B.S. Exercise Physiology</li>
-					<li>NASM CPT</li>
-					<li>PPSC certified</li>
-					<li>Prescript L1/L2/L3/Skill Acquisition certified</li>
-					<li>5 Years Coaching Experience</li>
-				</ul>
-			</div>
 		</div>
 	</div>
 </main>
@@ -62,6 +61,11 @@
 		100% {
 			background-position: 200%;
 		}
+	}
+
+	h2 {
+		text-align: center;
+		margin-top: 20px;
 	}
 
 	.about {
@@ -101,6 +105,10 @@
 		align-items: flex-end;
 		justify-content: left;
 		font-size: 1.25rem;
+		background-image: url('/images/abigail.webp');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 
 	.abigail .list ul {
@@ -112,14 +120,7 @@
 		color: #fff;
 		font-weight: bold;
 		background-color: rgba(0, 0, 0, 0.5);
-	}
-
-	.backup-img {
-		flex: 1;
-		background-image: url('/images/abigail.webp');
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
+		border-radius: 20px;
 	}
 
 	@media (max-width: 768px) {
@@ -130,6 +131,15 @@
 		.abigail .content,
 		.abigail .list {
 			width: 90%;
+		}
+		.abigail .list {
+			min-height: 400px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.abigail .list {
+			min-height: 300px;
 		}
 	}
 </style>

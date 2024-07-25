@@ -29,17 +29,16 @@
 
 <style>
 	.consultation-button {
-		background-color: #007bff;
-		color: white;
-		border: none;
-		padding: 15px 25px;
+		display: inline-block;
+		padding: 10px 20px;
+		font-size: 16px;
+		color: #fff;
+		background-color: #00356e;
 		text-align: center;
 		text-decoration: none;
-		display: inline-block;
-		font-size: 16px;
-		margin: 10px 2px;
 		cursor: pointer;
 		border-radius: 5px;
+		margin-top: 20px;
 	}
 
 	.consultation-button:hover {

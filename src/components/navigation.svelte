@@ -51,7 +51,9 @@
 			<a href="#home" on:click={closeMenu} alt="Back to the Top">TOP</a>
 			<a href="#about" on:click={closeMenu} alt="About Alchemical Training">ABOUT</a>
 			<a href="#partners" on:click={closeMenu} alt="Our Partners">PARTNERS</a>
-			<a href="#testimony" on:click={closeMenu} alt="What Our Clients are Saying">TESTIMONIALS</a>
+			<a href="./testimonials" on:click={closeMenu} alt="What Our Clients are Saying"
+				>TESTIMONIALS</a
+			>
 			<a href="#blog" on:click={closeMenu} alt="Alchemical-Training Blog">BLOG</a>
 			<a href="#contact" on:click={closeMenu} alt="Get in Touch">CONTACT US!</a>
 			<a href="#" on:click={openModal} alt="Get a Consult">Free! Consultation</a>

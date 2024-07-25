@@ -69,7 +69,7 @@
 	}
 	.marquee h3 {
 		display: inline-block;
-		color: #018f1a;
+		color: #cdcdcd;
 		margin-top: 5px;
 		margin-bottom: 0;
 		animation: marquee 60s linear infinite;
@@ -80,7 +80,7 @@
 	}
 	.reverse h3 {
 		animation: marqueeReverse 60s linear infinite;
-		color: #7b0293;
+		color: #8a8a8a;
 	}
 	@keyframes marquee {
 		0% {

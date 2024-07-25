@@ -10,14 +10,15 @@
 		padding: 10px 20px;
 		font-size: 16px;
 		color: #fff;
-		background-color: #018f1a;
+		background-color: #7b0293;
 		text-align: center;
 		text-decoration: none;
 		border-radius: 5px;
+		cursor: pointer;
 		margin-top: 20px;
 	}
 	.button-link:hover {
-		background-color: #0056b3;
+		background-color: #5f0171;
 	}
 
 	@media (max-width: 768px) {

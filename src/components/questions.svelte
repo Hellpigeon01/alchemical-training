@@ -53,7 +53,6 @@
 	}
 
 	.faq-card {
-		/* background-color: #f1f1f1; */
 		margin: 10px 0;
 		border-radius: 5px;
 		overflow: hidden;
@@ -61,7 +60,7 @@
 
 	.faq-card button {
 		width: 100%;
-		background-color: #00356e;
+		background-color: #490058;
 		color: white;
 		border: none;
 		padding: 15px;
@@ -73,12 +72,12 @@
 	}
 
 	.faq-card button:after {
-		content: '\002B'; /* Unicode character for "plus" sign (+) */
+		content: '\002B';
 		float: right;
 	}
 
 	.faq-card button.active:after {
-		content: '\2212'; /* Unicode character for "minus" sign (-) */
+		content: '\2212';
 	}
 
 	.faq-card .content {
