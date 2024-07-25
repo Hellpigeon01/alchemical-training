@@ -1,11 +1,16 @@
 <script>
+	import Nav2 from '../../components/nav2.svelte';
+	import Divider from '../../components/divider.svelte';
 </script>
 
 <header class="header">
 	<div class="logo-container">
-		<img src="/images/AT-Logo-color.webp" alt="Alchemical-Training Logo" class="logo" />
+		<a href="/"
+			><img src="/images/AT-Logo-color.webp" alt="Alchemical-Training Logo" class="logo" /></a
+		>
 	</div>
-	<h2 class="heading">The Alchemists</h2>
+	<h2>The Alchemists</h2>
+	<Nav2 />
 </header>
 <div class="testimonials">
 	<div class="container">
@@ -30,14 +35,16 @@
 				and is always the brightest part of my week. Abigail days are the best days!"
 			</p>
 			<p>- Army Nation</p>
+			<div class="image-container">
+				<img src="/images/stretch.webp" alt="A group of Clients" />
+			</div>
 		</div>
-		<!-- Group Image -->
+		<!-- Group Image - Phil Young - Stephanie Liles -->
 		<div class="testimonial">
 			<div class="image-container">
-				<img src="/images/group.jpg" alt="A group of Clients" />
+				<img src="/images/group.webp" alt="A group of Clients" />
 			</div>
 			<div>
-				<!-- Stephanie Liles -->
 				<div>
 					<p>
 						"I've been a competitive runner/triathlete since I was in my 20's and over the years I
@@ -50,7 +57,7 @@
 					</p>
 					<p>- Phil Young- <i>Father of Skylar Young</i></p>
 				</div>
-				<hr />
+				<Divider />
 				<div>
 					<p>
 						"My daughter Sky has been training with Abigail now for almost 2 years. Under her
@@ -60,9 +67,10 @@
 					</p>
 					<p>- Stephanie Liles-M</p>
 				</div>
+				<Divider />
 			</div>
 		</div>
-		<!-- Julie Cosper -->
+		<!-- Julie Cosper - Andrea Stephens -->
 		<div class="testimonial">
 			<div>
 				<p>
@@ -87,6 +95,15 @@
 					go to Abigail! She makes it fun but they work hard and come out sore! 10 stars!!!!”
 				</p>
 				<p>- Julie Cosper- Mother to Hunter Cosper</p>
+				<Divider />
+				<p>
+					"Training with Abigail Crowe is one of the best investments I have ever made. Abigail is
+					professional, personable and highly innovative. She created personalized plans to help me
+					reach my fitness goals and has given me the courage to challenge myself in new and
+					exciting ways. At 42, I can honestly say that I am in the best shape of my life. I am one
+					very grateful client, but I also consider her a friend."
+				</p>
+				<p>- Andrea Stephens</p>
 			</div>
 		</div>
 		<!-- Running Image -->
@@ -95,6 +112,7 @@
 				<img src="/images/running2.webp" alt="Runniny Athelte" />
 			</div>
 		</div>
+		<!-- Hunter Cosper -->
 		<div class="testimonial">
 			<p>
 				"Abigail is an amazing trainer and she works us hard but it pays off. I have gotten A LOT
@@ -146,12 +164,11 @@
 			</p>
 			<p>- Dylan Sumner</p>
 		</div>
-		<!-- Baseball Image -->
+		<!-- Baseball Image - Emma Brice -->
 		<div class="testimonial">
 			<div class="image-container">
 				<img src="/images/baseball.webp" alt="Baseball Player" />
 			</div>
-			<!-- Emma Brice -->
 			<div>
 				<div>
 					<p>
@@ -174,9 +191,10 @@
 					</p>
 					<p>- Emma Brice</p>
 				</div>
+				<Divider />
 			</div>
 		</div>
-		<!-- Abby Walton -->
+		<!-- Abby Walton - Denise Cannon -->
 		<div class="testimonial">
 			<div>
 				<p>
@@ -200,17 +218,35 @@
 					out, need a push or are a star athlete, she will absolutely help you meet your goals!"
 				</p>
 				<p>- Abby Walton</p>
+				<Divider />
+				<p>
+					"I started training with Abigail approximately a year ago as I set high goals in 2023,
+					including completing a Spartan Ultra. Under her guidance, I completed two Spartan Ultras,
+					five Spartan Trifectas, and three Dekas last year. She is a wonderful trainer who listens
+					to your concerns, encourages you, and prescribes tough love when you need it. She points
+					out when I speak my " I can't" nonsense and is patient when I name my exercises. She is
+					the best."
+				</p>
+				<p>- Denise Cannon</p>
 			</div>
 		</div>
 	</div>
 </div>
 
 <style>
-	body {
-		margin: 0;
-		font-family: Arial, sans-serif;
+	h2 {
+		font-size: 3rem;
+		font-weight: 800;
+		background: linear-gradient(90deg, #ffffff, #00356e, #ffffff, #7b0293, #ffffff);
+		background-size: 200% 200%;
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: shine 20s linear infinite;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		text-align: center;
 	}
-
 	.header {
 		text-align: center;
 		padding: 2rem 1rem;
@@ -226,13 +262,13 @@
 	}
 
 	.logo {
-		width: 150px;
+		width: 200px;
 		height: auto;
 		transition: transform 0.3s ease-in-out;
 	}
 
 	.logo:hover {
-		transform: scale(1.1);
+		transform: scale(1.5);
 	}
 
 	.heading {
@@ -257,9 +293,9 @@
 		justify-content: center;
 		background: url('/images/formulas.jpg') no-repeat center center fixed;
 		background-size: cover;
-		min-height: 100vh;
 		color: white;
-		padding-top: 2rem; /* Ensure there's space below the header */
+		/* padding-top: 1rem; */
+		margin-top: 0; /* Ensure no margin */
 	}
 
 	.container {
@@ -268,26 +304,23 @@
 		width: 100%;
 		max-width: 1200px;
 		margin: 0 auto;
-		gap: 1rem; /* Adds gap between testimonials */
 	}
 
 	.testimonial {
-		flex: 1 1 calc(33.33% - 1rem); /* Allows for three columns with a small gap */
-		padding: 1rem;
+		flex: 1 1 calc(33.33% - 1rem);
+		padding: 0.5rem;
 		box-sizing: border-box;
-		border: 1px solid white;
 	}
 
 	.testimonial p {
 		background-color: rgba(0, 0, 0, 0.5);
-		padding: 1rem;
-		margin: 0.5rem 0;
+		padding: 0.5rem;
 		border-radius: 0.5rem;
 	}
 
 	.image-container {
 		width: 100%;
-		height: 300px; /* Adjust height as needed */
+		height: 400px;
 		overflow: hidden;
 	}
 
@@ -309,6 +342,9 @@
 		}
 		.heading {
 			font-size: 2rem;
+		}
+		.container {
+			max-width: 80%;
 		}
 	}
 </style>
