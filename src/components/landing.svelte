@@ -23,7 +23,7 @@
 	<div class="landing-container">
 		<div class="box-fifty">
 			<div>
-				<img src="/images/AT-Logo-green.svg" class="logo" alt="Alchemical Training Logo" />
+				<img src="/images/AT-Logo_color.svg" class="logo" alt="Alchemical Training Logo" />
 			</div>
 			<div><h1>ALCHEMICAL</h1></div>
 			<div><h2 class="h2-1">TRAINING</h2></div>
@@ -70,12 +70,10 @@
 	}
 
 	h1 {
-		font-size: 4rem;
+		font-size: 3rem;
 		font-weight: 800;
-		background: linear-gradient(10deg, #ffffff, #606060, #ffffff);
-		background-size: 200% auto;
+		background: linear-gradient(30deg, #ffffff, #606060, #ffffff);
 		color: #000;
-		background-clip: text;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		animation: shine 10s linear infinite;
@@ -90,7 +88,7 @@
 		padding: 20px;
 	}
 	.logo {
-		width: 300px;
+		width: 250px;
 		height: auto;
 	}
 
