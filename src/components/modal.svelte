@@ -15,7 +15,9 @@
 </script>
 
 <!-- Button to open the modal -->
-<button on:click={openModal} class="consultation-button">Free Consultation</button>
+<div style="text-align: center; max-width: 1200px; margin: 0 auto; margin-bottom: 20px;">
+	<button on:click={openModal} class="consultation-button">Free Consultation</button>
+</div>
 
 <!-- Modal content -->
 {#if $isModalOpen}

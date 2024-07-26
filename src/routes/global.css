@@ -29,6 +29,16 @@ body {
     }
   }
 
+  /* styles.css */
+a {
+  color: #7b0293; /* Change this to your desired color */
+}
+
+a:hover {
+  color: #00356e; /* Change this to your desired hover color */
+}
+
+
   h2 {
     font-size: 2.25rem;
     font-weight: 800;

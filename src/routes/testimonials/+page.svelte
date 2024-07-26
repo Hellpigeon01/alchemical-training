@@ -1,6 +1,7 @@
 <script>
 	import Nav2 from '../../components/nav2.svelte';
 	import Divider from '../../components/divider.svelte';
+	import Footer from '../../components/footer.svelte';
 </script>
 
 <header class="header">
@@ -9,12 +10,14 @@
 			><img src="/images/AT-Logo-color.webp" alt="Alchemical-Training Logo" class="logo" /></a
 		>
 	</div>
-	<h2>The Alchemists</h2>
-	<Nav2 />
+	<div class="text-container">
+		<h1>The Alchemists</h1>
+		<h2>Following Their Formula!</h2>
+	</div>
 </header>
+<Nav2 />
 <div class="testimonials">
 	<div class="container">
-		<!-- Army Nation -->
 		<div class="testimonial">
 			<p>
 				"At age 40, I gathered the courage to try the gym for the first time! I had always been a
@@ -38,8 +41,36 @@
 			<div class="image-container">
 				<img src="/images/stretch.webp" alt="A group of Clients" />
 			</div>
+			<p>
+				"Abigail is an amazing trainer and she works us hard but it pays off. I have gotten A LOT
+				stronger training with Abigail. She’s a great person. She knows what she is doing. We have a
+				lot of fun. The trainings are hard but fun! I have gotten faster for sure I used to be
+				REALLY slow but I am not anymore. I recommend Abigail 100%. Even in a group setting she
+				focuses on what I need to do individually as well. She is also super cool!"
+			</p>
+			<p>- Hunter Cosper</p>
+			<Divider />
+			<p>
+				"When I was 17 years old I had the privilege to start training with Abigail. At this time, I
+				was trying to be recruited after recovering from a foot surgery that took me months to fully
+				recover. In this time I lost a lot of muscle and was not confident in myself to be recruited
+				at a top-level school.
+				<br /><br />
+				Abigail stepped up alongside Drew Whitehead and made a plan of action for me to not only accomplish
+				my goal but to [exceed] them. Throughout this journey, Abigail was not only just my trainer but
+				also a mentor and a friend. She made sacrifices and studied the game of softball to make me a
+				stronger and better competitor both mentally and physically. I could not have asked for a better
+				trainer, and I will forever be grateful for her.
+				<br /><br />
+				I am now 20 years old and play at the University of West Florida. I led my team in home runs
+				last year as a freshman and I am starting my sophomore year at second base. I still look forward
+				to coming back and training with her because she still challenges me and pushes me to be better
+				every day. She is the total package. A mentor, a friend, and a hell of a strength coach.”
+			</p>
+			<p>- Emma Brice</p>
+			<Divider />
 		</div>
-		<!-- Group Image - Phil Young - Stephanie Liles -->
+
 		<div class="testimonial">
 			<div class="image-container">
 				<img src="/images/group.webp" alt="A group of Clients" />
@@ -55,22 +86,47 @@
 						do what I love without her help and am so grateful to her. Abigail will forever be my
 						trainer!"
 					</p>
-					<p>- Phil Young- <i>Father of Skylar Young</i></p>
+					<p>- Stephanie Liles-Weyant</p>
 				</div>
 				<Divider />
-				<div>
-					<p>
-						"My daughter Sky has been training with Abigail now for almost 2 years. Under her
-						training, she has gotten stronger, faster, and more flexible. This makes a big
-						difference in high levels of athletic performance. I would highly recommend Abigail to
-						any athlete!!!"
-					</p>
-					<p>- Stephanie Liles-M</p>
+				<p>
+					"After nearly 40 years of “working out” on my own, from football weight room training in
+					high school and college to running marathons and over 100 road races in my 30s-40s,
+					Abigail is the first personal trainer I ever worked with.
+					<br /><br />
+					On day one, I carried around more body fat than I had at any point. I had knee, shoulder and
+					elbow pain and loss of function that seemed to require surgery. Abigail sat me down and we
+					assessed where I was and what my goals were.
+					<br /><br />
+					She tailored an overall plan to reach those goals and modified each work out based on where
+					I actually was AND how I felt going into that day. Along the way, Abigail kept me honest and
+					accountable with focus on building strength, endurance and flexibility through proper form
+					and technique. And, she reminded me (with some success) on diet and lifestyle choices that
+					matter as much or more than what I did in the gym.
+					<br /><br />
+					Abigail consistently challenged my old notions of what “working out” meant. She got me out
+					of my comfort zone trying new exercises and techniques, many I never heard of and, at times,
+					a few I thought she was just making up (she wasn't).
+					<br /><br />
+					She's listens to her clients and is an excellent communicator who pays close attention to every
+					detail. If we aren't doing it correctly, we aren't going to do it. Just because I want to add
+					weight to an exercise doesn't make it a good idea - She has saved me more times than I can
+					count from doing something foolish simply because I thought I was 25 years old again. After
+					the first 3-4 months, that chronic pain in in all three areas (knee, shoulders and elbows)
+					is virtually gone.
+					<br /><br />
+					Today, my overall strength, flexibility, endurance and BMI are the best they've been in nearly
+					20 years. I feel better and sleep better than I have in years. I'm doing things physically
+					I wasn't able to do 10 years ago. Bottom line — Abigail is the best and I wouldn't be where
+					I am today without her expertise and guidance."
+				</p>
+				<p>- Dylan Sumner</p>
+				<div class="image-container">
+					<img src="/images/flag.webp" alt="Alchemist and Flag Background" />
 				</div>
-				<Divider />
 			</div>
 		</div>
-		<!-- Julie Cosper - Andrea Stephens -->
+
 		<div class="testimonial">
 			<div>
 				<p>
@@ -95,130 +151,11 @@
 					go to Abigail! She makes it fun but they work hard and come out sore! 10 stars!!!!”
 				</p>
 				<p>- Julie Cosper- Mother to Hunter Cosper</p>
-				<Divider />
-				<p>
-					"Training with Abigail Crowe is one of the best investments I have ever made. Abigail is
-					professional, personable and highly innovative. She created personalized plans to help me
-					reach my fitness goals and has given me the courage to challenge myself in new and
-					exciting ways. At 42, I can honestly say that I am in the best shape of my life. I am one
-					very grateful client, but I also consider her a friend."
-				</p>
-				<p>- Andrea Stephens</p>
-			</div>
-		</div>
-		<!-- Running Image -->
-		<div class="testimonial">
-			<div class="image-container">
-				<img src="/images/running2.webp" alt="Runniny Athelte" />
-			</div>
-		</div>
-		<!-- Hunter Cosper -->
-		<div class="testimonial">
-			<p>
-				"Abigail is an amazing trainer and she works us hard but it pays off. I have gotten A LOT
-				stronger training with Abigail. She’s a great person. She knows what she is doing. We have a
-				lot of fun. The trainings are hard but fun! I have gotten faster for sure I used to be
-				REALLY slow but I am not anymore. I recommend Abigail 100%. Even in a group setting she
-				focuses on what I need to do individually as well. She is also super cool!"
-			</p>
-			<p>- Hunter Cosper</p>
-		</div>
-		<!-- Flag Image -->
-		<div class="testimonial">
-			<div class="image-container">
-				<img src="/images/flag.webp" alt="Alchemist and Flag Background" />
-			</div>
-		</div>
-		<!-- Dylan Sumner -->
-		<div class="testimonial">
-			<p>
-				"After nearly 40 years of “working out” on my own, from football weight room training in
-				high school and college to running marathons and over 100 road races in my 30s-40s, Abigail
-				is the first personal trainer I ever worked with.
-				<br /><br />
-				On day one, I carried around more body fat than I had at any point. I had knee, shoulder and
-				elbow pain and loss of function that seemed to require surgery. Abigail sat me down and we assessed
-				where I was and what my goals were.
-				<br /><br />
-				She tailored an overall plan to reach those goals and modified each work out based on where I
-				actually was AND how I felt going into that day. Along the way, Abigail kept me honest and accountable
-				with focus on building strength, endurance and flexibility through proper form and technique.
-				And, she reminded me (with some success) on diet and lifestyle choices that matter as much or
-				more than what I did in the gym.
-				<br /><br />
-				Abigail consistently challenged my old notions of what “working out” meant. She got me out of
-				my comfort zone trying new exercises and techniques, many I never heard of and, at times, a few
-				I thought she was just making up (she wasn't).
-				<br /><br />
-				She's listens to her clients and is an excellent communicator who pays close attention to every
-				detail. If we aren't doing it correctly, we aren't going to do it. Just because I want to add
-				weight to an exercise doesn't make it a good idea - She has saved me more times than I can count
-				from doing something foolish simply because I thought I was 25 years old again. After the first
-				3-4 months, that chronic pain in in all three areas (knee, shoulders and elbows) is virtually
-				gone.
-				<br /><br />
-				Today, my overall strength, flexibility, endurance and BMI are the best they've been in nearly
-				20 years. I feel better and sleep better than I have in years. I'm doing things physically I
-				wasn't able to do 10 years ago. Bottom line — Abigail is the best and I wouldn't be where I am
-				today without her expertise and guidance."
-			</p>
-			<p>- Dylan Sumner</p>
-		</div>
-		<!-- Baseball Image - Emma Brice -->
-		<div class="testimonial">
-			<div class="image-container">
-				<img src="/images/baseball.webp" alt="Baseball Player" />
-			</div>
-			<div>
-				<div>
-					<p>
-						"When I was 17 years old I had the privilege to start training with Abigail. At this
-						time, I was trying to be recruited after recovering from a foot surgery that took me
-						months to fully recover. In this time I lost a lot of muscle and was not confident in
-						myself to be recruited at a top-level school.
-						<br /><br />
-						Abigail stepped up alongside Drew Whitehead and made a plan of action for me to not only
-						accomplish my goal but to [exceed] them. Throughout this journey, Abigail was not only just
-						my trainer but also a mentor and a friend. She made sacrifices and studied the game of softball
-						to make me a stronger and better competitor both mentally and physically. I could not have
-						asked for a better trainer, and I will forever be grateful for her.
-						<br /><br />
-						I am now 20 years old and play at the University of West Florida. I led my team in home runs
-						last year as a freshman and I am starting my sophomore year at second base. I still look
-						forward to coming back and training with her because she still challenges me and pushes me
-						to be better every day. She is the total package. A mentor, a friend, and a hell of a strength
-						coach.”
-					</p>
-					<p>- Emma Brice</p>
+				<div class="testimonial">
+					<div class="image-container">
+						<img src="/images/running2.webp" alt="Runniny Athelte" />
+					</div>
 				</div>
-				<Divider />
-			</div>
-		</div>
-		<!-- Abby Walton - Denise Cannon -->
-		<div class="testimonial">
-			<div>
-				<p>
-					"It's a rare and beautiful thing when people find their calling in life and then get to do
-					that for a living. When you meet Abigail Crowe, it's instantly clear she's living her
-					calling.
-					<br /><br />
-					She has a palpable passion not just for fitness, but also seeing her clients thrive. For years,
-					the gym was my stress reliever. However, last year life threw me some serious health challenges.
-					All the strength and cardio gains I'd been building over the years came to a halt.
-					<br /><br />
-					I'd been training with Abigail for a few months and one day, I was really struggling physically
-					and mentally during our session. She looked at me and said, "Just show up and move. That's
-					all I need you to do." She met me where I was at and it was such a game changer for me.
-					<br /><br />
-					I'm still not to where I was, but I'm on my way back using movement as medicine.
-					<br /><br />
-					There are a lot of knowledgeable trainers out there, but what sets Abigail a part is her emotional
-					intelligence. She truly invests in her clients, creating a program that not only takes their
-					fitness goals into account, but also what's going on in their lives. Whether you're just starting
-					out, need a push or are a star athlete, she will absolutely help you meet your goals!"
-				</p>
-				<p>- Abby Walton</p>
-				<Divider />
 				<p>
 					"I started training with Abigail approximately a year ago as I set high goals in 2023,
 					including completing a Spartan Ultra. Under her guidance, I completed two Spartan Ultras,
@@ -229,13 +166,48 @@
 				</p>
 				<p>- Denise Cannon</p>
 			</div>
+			<Divider />
+			<p>
+				"It's a rare and beautiful thing when people find their calling in life and then get to do
+				that for a living. When you meet Abigail Crowe, it's instantly clear she's living her
+				calling.
+				<br /><br />
+				She has a palpable passion not just for fitness, but also seeing her clients thrive. For years,
+				the gym was my stress reliever. However, last year life threw me some serious health challenges.
+				All the strength and cardio gains I'd been building over the years came to a halt.
+				<br /><br />
+				I'd been training with Abigail for a few months and one day, I was really struggling physically
+				and mentally during our session. She looked at me and said, "Just show up and move. That's all
+				I need you to do." She met me where I was at and it was such a game changer for me.
+				<br /><br />
+				I'm still not to where I was, but I'm on my way back using movement as medicine.
+				<br /><br />
+				There are a lot of knowledgeable trainers out there, but what sets Abigail a part is her emotional
+				intelligence. She truly invests in her clients, creating a program that not only takes their
+				fitness goals into account, but also what's going on in their lives. Whether you're just starting
+				out, need a push or are a star athlete, she will absolutely help you meet your goals!"
+			</p>
+			<p>- Abby Walton</p>
 		</div>
 	</div>
 </div>
+<Footer />
 
 <style>
-	h2 {
+	h1 {
 		font-size: 3rem;
+		font-weight: 800;
+		background: linear-gradient(30deg, #ffffff, #606060, #ffffff);
+		color: #000;
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: shine 10s linear infinite;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	h2 {
+		font-size: 2rem;
 		font-weight: 800;
 		background: linear-gradient(90deg, #ffffff, #00356e, #ffffff, #7b0293, #ffffff);
 		background-size: 200% 200%;
@@ -248,16 +220,20 @@
 		text-align: center;
 	}
 	.header {
-		text-align: center;
-		padding: 2rem 1rem;
+		display: flex;
+		align-items: center;
+		max-width: 1200px;
 		background: url('/images/formulas.jpg') no-repeat center center;
 		background-size: cover;
 		color: white;
+		margin: 0 auto;
 	}
 
 	.logo-container {
-		display: inline-block;
-		margin-bottom: 1rem;
+		flex: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		animation: fadeIn 2s ease-in-out;
 	}
 
@@ -268,13 +244,14 @@
 	}
 
 	.logo:hover {
-		transform: scale(1.5);
+		transform: scale(1.25);
 	}
 
-	.heading {
-		font-size: 3rem;
-		margin: 0;
-		animation: fadeIn 2s ease-in-out;
+	.text-container {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	@keyframes fadeIn {

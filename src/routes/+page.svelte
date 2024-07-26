@@ -8,6 +8,7 @@
 	import Divider from '../components/divider.svelte';
 	import Questions from '../components/questions.svelte';
 	import Modal from '../components/modal.svelte';
+	import Footer from '../components/footer.svelte';
 </script>
 
 <nav>
@@ -73,6 +74,7 @@
 	<section id="partners" class="margin">
 		<Divider />
 		<Partners />
+		<Footer />
 	</section>
 </main>
 
