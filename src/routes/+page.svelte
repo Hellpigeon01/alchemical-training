@@ -9,6 +9,7 @@
 	import Questions from '../components/questions.svelte';
 	import Modal from '../components/modal.svelte';
 	import Footer from '../components/footer.svelte';
+	import Contact from '../components/contact.svelte';
 </script>
 
 <nav>
@@ -74,8 +75,13 @@
 	<section id="partners" class="margin">
 		<Divider />
 		<Partners />
-		<Footer />
 	</section>
+	<section id="contact">
+		<Divider />
+		<h2>Contact Us</h2>
+		<Contact />
+	</section>
+	<Footer />
 </main>
 
 <style>

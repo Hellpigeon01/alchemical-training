@@ -12,7 +12,6 @@
 	</div>
 	<div class="text-container">
 		<h1>The Alchemists</h1>
-		<h2>Following Their Formula!</h2>
 	</div>
 </header>
 <Nav2 />

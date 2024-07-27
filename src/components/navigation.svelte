@@ -86,12 +86,14 @@
 		position: fixed;
 		top: 0;
 		left: 0;
-		width: 100%;
+		width: 110px;
 		display: flex;
 		align-items: center;
-		padding: 10px;
+		padding: 5px;
 		z-index: 1000;
-		/* background: rgba(63, 63, 63, 0.5); */
+		background: rgba(63, 63, 63, 0.5);
+		border-radius: 10px;
+		margin: 5px;
 	}
 
 	.hamburger {
