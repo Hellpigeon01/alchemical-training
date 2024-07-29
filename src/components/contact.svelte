@@ -21,7 +21,7 @@
 	};
 </script>
 
-<form on:submit={handleSubmit} data-netlify="true">
+<form data-netlify="true" netlify>
 	<div>
 		<label for="name">Name:</label>
 		<input type="text" id="name" bind:value={name} required />
