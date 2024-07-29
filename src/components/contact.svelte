@@ -5,23 +5,11 @@
 
 	const handleSubmit = (event) => {
 		event.preventDefault();
-		// alert(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
-		// form submission logic here (e.g., send data to a server)
-
-		const myForm = event.target;
-  		const formData = new FormData(myForm);
-
-		fetch('/', {
-			method: 'POST',
-			headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-			body: new URLSearchParams(formData).toString()
-		})
-			.then(() => console.log('Form successfully submitted'))
-			.catch((error) => alert(error));
+		// Form submission logic here if needed, but it's not required for Netlify
 	};
 </script>
 
-<form on:submit={handleSubmit} data-netlify="true" netlify>
+<form on:submit={handleSubmit} data-netlify="true">
 	<div>
 		<label for="name">Name:</label>
 		<input type="text" id="name" bind:value={name} required />
@@ -62,13 +50,13 @@
 		color: white;
 		width: 100%;
 		box-sizing: border-box;
-		border: 1px solid rgb(30, 30, 41); /* Default border color */
-		outline: none; /* Remove default outline */
+		border: 1px solid rgb(30, 30, 41);
+		outline: none;
 	}
 
 	input:focus,
 	textarea:focus {
-		border-color: #007bff; /* Active border color */
+		border-color: #007bff;
 	}
 
 	button {
