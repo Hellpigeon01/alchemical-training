@@ -5,8 +5,19 @@
 
 	const handleSubmit = (event) => {
 		event.preventDefault();
-		alert(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
+		// alert(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
 		// form submission logic here (e.g., send data to a server)
+
+		const myForm = event.target;
+  		const formData = new FormData(myForm);
+
+		fetch('/', {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+			body: new URLSearchParams(formData).toString()
+		})
+			.then(() => console.log('Form successfully submitted'))
+			.catch((error) => alert(error));
 	};
 </script>
 
