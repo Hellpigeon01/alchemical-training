@@ -6,7 +6,7 @@
 	const handleSubmit = (event) => {
 		event.preventDefault();
 		alert(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
-		// You can add your form submission logic here (e.g., send data to a server)
+		// form submission logic here (e.g., send data to a server)
 	};
 </script>
 
@@ -31,7 +31,6 @@
 		max-width: 600px;
 		margin: auto;
 		padding: 1em;
-		border-radius: 1em;
 	}
 
 	div {
@@ -46,16 +45,23 @@
 
 	input,
 	textarea {
-		border: 1px solid #cccccc;
+		background: rgb(30, 30, 41);
 		padding: 0.5em;
 		font-size: 1em;
+		color: white;
 		width: 100%;
 		box-sizing: border-box;
-		border-radius: 0.25em;
+		border: 1px solid rgb(30, 30, 41); /* Default border color */
+		outline: none; /* Remove default outline */
+	}
+
+	input:focus,
+	textarea:focus {
+		border-color: #007bff; /* Active border color */
 	}
 
 	button {
-		padding: 0.7em;
+		padding: 0.4em;
 		color: #fff;
 		background-color: #007bff;
 		border: none;

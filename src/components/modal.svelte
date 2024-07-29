@@ -44,7 +44,7 @@
 	}
 
 	.consultation-button:hover {
-		background-color: #0056b3;
+		background-color: #007bff;
 	}
 
 	.modal {

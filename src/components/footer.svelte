@@ -49,6 +49,14 @@
 			</div>
 		</div>
 	</div>
+	<div><hr /></div>
+	<div style="text-align: center; color: white; padding: 10px;">
+		&copy; 2024 Alchemical Training. All Rights Reserved. Website created by <a
+			href="https://www.hellpigeonstudios.com"
+			target="_blank">Hellpigeon Studios</a
+		>
+		<div><hr /></div>
+	</div>
 </footer>
 
 <style>

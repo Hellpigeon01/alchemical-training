@@ -5,8 +5,8 @@
 <style>
 	.divider {
 		text-align: center;
-		margin-bottom: 10px;
-		margin-top: 20px;
+		margin-bottom: 30px;
+		margin-top: 30px;
 	}
 
 	.divider img {
