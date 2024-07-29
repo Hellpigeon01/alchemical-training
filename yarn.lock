@@ -181,6 +181,11 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/retry/-/retry-0.3.0.tgz"
   integrity sha512-d2CGZR2o7fS6sWB7DG/3a95bGKQyHMACZ5aW8qGkkqQpUoZV6C0X7Pc7l4ZNMZkfNBf4VWNe9E1jRsf0G146Ew==
 
+"@iarna/toml@^2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
+  integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
+
 "@jridgewell/gen-mapping@^0.3.5":
   version "0.3.5"
   resolved "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.5.tgz"
@@ -325,6 +330,15 @@
   integrity sha512-Mso5xPCA8zgcKrv+QioVlqMZkyUQ5MjDJiEPuG/Z7cV/5tmwV7LmcVWk5tZ+H0NCOV1x12AsoSpt/CwFwuVXMA==
   dependencies:
     import-meta-resolve "^4.1.0"
+
+"@sveltejs/adapter-netlify@^4.3.1":
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-4.3.1.tgz#122cadbd7a92167b3baba85523f9e1ed15bb6964"
+  integrity sha512-KG/We5SbNygKSSU2zagWqLrV7RGHlmcnOPWn/9W9RYjNaMwgsvtw+4h50lP12+Dj9dZ2xDZcBl/X+R9kgiuL5g==
+  dependencies:
+    "@iarna/toml" "^2.2.5"
+    esbuild "^0.21.5"
+    set-cookie-parser "^2.6.0"
 
 "@sveltejs/kit@^2.0.0":
   version "2.5.18"
@@ -546,7 +560,7 @@ devalue@^5.0.0:
   resolved "https://registry.npmjs.org/devalue/-/devalue-5.0.0.tgz"
   integrity sha512-gO+/OMXF7488D+u3ue+G7Y4AA3ZmUnB3eHJXmBTgNHvr4ZNzl36A0ZtG+XCRNYCkYx/bFmw4qtkoFLa+wSrwAA==
 
-esbuild@^0.21.3:
+esbuild@^0.21.3, esbuild@^0.21.5:
   version "0.21.5"
   resolved "https://registry.npmjs.org/esbuild/-/esbuild-0.21.5.tgz"
   integrity sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw==

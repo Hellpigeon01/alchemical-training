@@ -21,7 +21,8 @@
 	};
 </script>
 
-<form data-netlify="true" netlify>
+<form name="contact-form" netlify-honeypot="bot-field" data-netlify="true">
+	<input type="hidden" name="form-name" value="contact-form" />
 	<div>
 		<label for="name">Name:</label>
 		<input type="text" id="name" bind:value={name} required />
