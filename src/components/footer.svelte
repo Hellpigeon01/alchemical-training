@@ -24,8 +24,8 @@
 						<li><a href="/">Home</a></li>
 						<li><a href="/#about">About</a></li>
 						<li><a href="/#partners">Partners</a></li>
-						<li><a href="./#testimonials">Testimonials</a></li>
-						<li><a href="#">Alchemical Blog</a></li>
+						<li><a href="/testimonials">Testimonials</a></li>
+						<li><a href="/#partners">Alchemical Blog</a></li>
 						<li><a href="/#contact">Contact Us</a></li>
 					</ul>
 				</div>
@@ -37,14 +37,14 @@
 						href="https://www.facebook.com/abigail.crowe.92"
 						target="_blank"
 						class="fab fa-facebook-f"
-					></a>
-					<a href="https://www.twitter.com" target="_blank" class="fab fa-twitter"></a>
+					>&nbsp;</a>
+					<a href="https://www.twitter.com" target="_blank" class="fab fa-twitter">&nbsp;</a>
 					<a
 						href="https://www.instagram.com/alchemicaltraining/"
 						target="_blank"
 						class="fab fa-instagram"
-					></a>
-					<a href="https://www.linkedin.com" target="_blank" class="fab fa-linkedin-in"></a>
+					>&nbsp;</a>
+					<a href="https://www.linkedin.com" target="_blank" class="fab fa-linkedin-in">&nbsp;</a>
 				</div>
 			</div>
 		</div>
@@ -95,11 +95,6 @@
 	.col-fl-1 {
 		flex: 1;
 		color: rgb(94, 94, 94);
-	}
-	.footer-hr {
-		width: 50%;
-		border: 1px solid rgb(94, 94, 94);
-		margin: 10px 0;
 	}
 	.social-icons a {
 		color: rgb(94, 94, 94);
