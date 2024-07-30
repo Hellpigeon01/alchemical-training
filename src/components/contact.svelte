@@ -1,8 +1,4 @@
 <script>
-	let name = '';
-	let email = '';
-	let message = '';
-
 	const handleSubmit = (event) => {
 		event.preventDefault();
 		console.log(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
@@ -25,15 +21,15 @@
 	<input type="hidden" name="form-name" value="contact-form" />
 	<div>
 		<label for="name">Name:</label>
-		<input type="text" id="name" bind:value={name} required />
+		<input type="text" name="" id="name" required />
 	</div>
 	<div>
 		<label for="email">Email:</label>
-		<input type="email" id="email" bind:value={email} required />
+		<input type="email" name="email" id="email" required />
 	</div>
 	<div>
 		<label for="message">Message:</label>
-		<textarea id="message" bind:value={message} required></textarea>
+		<textarea name="message" id="message" required></textarea>
 	</div>
 	<button type="submit">Submit</button>
 </form>
