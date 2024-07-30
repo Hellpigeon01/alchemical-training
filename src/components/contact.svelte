@@ -42,11 +42,14 @@
 	}
 </script>
 
-<form on:submit={handleSubmit} name="contact-form" data-netlify="true">
+<form on:submit={handleSubmit} name="contact-form" data-netlify="true" netlify-honeypot="bot-field">
 	<input type="hidden" name="form-name" value="contact-form" />
+	<!-- Hidden Honeypot Field -->
+	<input type="hidden" name="bot-field" />
+	<!-- Actual Form -->
 	<div>
 		<label for="name">Name:</label>
-		<input type="text" name="" id="name" required bind:value={name}/>
+		<input type="text" name="name" id="name" required bind:value={name}/>
 	</div>
 	<div>
 		<label for="email">Email:</label>
