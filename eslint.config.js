@@ -15,9 +15,15 @@ export default [
 				...globals.browser,
 				...globals.node
 			}
+		},
+		rules: {
+			// Disable specific rules or customize their behavior
+			'no-console': 'off',
+			'svelte/a11y-no-noninteractive-element-interactions': 'off', // Disable the specific Svelte rule
+			// Add other rule configurations as needed
 		}
 	},
 	{
 		ignores: ['build/', '.svelte-kit/', 'dist/']
-	}
+	},
 ];

@@ -21,7 +21,7 @@
 
 <!-- Modal content -->
 {#if $isModalOpen}
-	<div class="modal" on:click={closeModal}>
+	<div class="modal" on:click={closeModal} on:keypress={closeModal} aria-controls="modal" aria-haspopup="dialog" role="dialog">
 		<div class="modal-content" on:click|stopPropagation>
 			<span class="close" on:click={closeModal}>&times;</span>
 			<iframe src="https://calendly.com/alchemicaltraining" frameborder="0"></iframe>
