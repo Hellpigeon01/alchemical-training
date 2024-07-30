@@ -31,7 +31,7 @@
 		<label for="message">Message:</label>
 		<textarea name="message" id="message" required></textarea>
 	</div>
-	<button type="submit">Submit</button>
+	<input type="submit" value="Submit" />
 </form>
 
 <style>
