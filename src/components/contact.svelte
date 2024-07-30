@@ -21,7 +21,7 @@
 	};
 </script>
 
-<form name="contact-form" netlify-honeypot="bot-field" data-netlify="true">
+<form name="contact-form" data-netlify="true">
 	<input type="hidden" name="form-name" value="contact-form" />
 	<div>
 		<label for="name">Name:</label>
