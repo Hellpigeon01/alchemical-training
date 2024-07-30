@@ -7,7 +7,7 @@
 		const myForm = event.target;
   		const formData = new FormData(myForm);
 
-		fetch('/', {
+		fetch('/images/favicon.png', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
 			body: new URLSearchParams(formData).toString()
@@ -17,7 +17,7 @@
 	};
 </script>
 
-<form name="contact-form" data-netlify="true">
+<form on:submit={handleSubmit} name="contact-form" data-netlify="true">
 	<input type="hidden" name="form-name" value="contact-form" />
 	<div>
 		<label for="name">Name:</label>
@@ -67,7 +67,7 @@
 	textarea:focus {
 		border-color: #007bff;
 	}
-
+/* 
 	button {
 		padding: 0.4em;
 		color: #fff;
@@ -79,5 +79,5 @@
 
 	button:hover {
 		background-color: #0056b3;
-	}
+	} */
 </style>
