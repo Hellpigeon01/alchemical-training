@@ -31,7 +31,7 @@
 		<label for="message">Message:</label>
 		<textarea name="message" id="message" required></textarea>
 	</div>
-	<input type="submit" value="Submit" />
+	<button type="submit" value="Submit">Submit</button>
 </form>
 
 <style>
@@ -67,7 +67,7 @@
 	textarea:focus {
 		border-color: #007bff;
 	}
-/* 
+
 	button {
 		padding: 0.4em;
 		color: #fff;
@@ -79,5 +79,5 @@
 
 	button:hover {
 		background-color: #0056b3;
-	} */
+	}
 </style>
