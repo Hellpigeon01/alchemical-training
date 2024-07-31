@@ -45,7 +45,8 @@
 </script>
 
 <div class="nav-bar-container">
-	<div class="hamburger" on:click={toggleMenu} alt="Menu">☰ Menu</div>
+	<button class="hamburger" on:click={toggleMenu} alt="Menu" aria-label="Toggle Menu">☰ Menu</button
+	>
 	{#if $isMenuOpen}
 		<div class="container darkGray pullRightLeft">
 			<a href="#home" on:click={closeMenu} alt="Back to the Top">TOP</a>
@@ -56,14 +57,18 @@
 			>
 			<a href="#blog" on:click={closeMenu} alt="Alchemical-Training Blog">BLOG</a>
 			<a href="#contact" on:click={closeMenu} alt="Get in Touch">CONTACT US!</a>
-			<a href="#" on:click={openModal} alt="Get a Consult">Free! Consultation</a>
+			<a href="javascript:void(0)" on:click={openModal} alt="Get a Free Consult"
+				>Free! Consultation</a
+			>
 			<hr />
-			<a href="#" on:click={toggleSubMenu} alt="Social Media Menu">Social Media</a>
+			<a href="javascript:void(0)" on:click={toggleSubMenu} alt="Social Media Menu">Social Media</a>
 			{#if $isSubMenuOpen}
 				<div class="submenu">
-					<a href="https://facebook.com" target="_blank">Facebook</a>
-					<a href="https://twitter.com" target="_blank">Twitter</a>
-					<a href="https://instagram.com" target="_blank">Instagram</a>
+					<a href="https://www.instagram.com/alchemicaltraining/" target="_blank">Instagram</a>
+					<a href="https://x.com/acalchemical" target="_blank">X (Twitter)</a>
+					<a href="https://www.linkedin.com/in/abigail-crowe-b7368b320/" target="_blank">LinkedIn</a
+					>
+					<a href="https://www.facebook.com/abigail.crowe.92" target="_blank">Facebook</a>
 				</div>
 			{/if}
 		</div>
@@ -86,21 +91,23 @@
 		position: fixed;
 		top: 0;
 		left: 0;
-		width: 110px;
+		width: 115px;
 		display: flex;
 		align-items: center;
 		padding: 5px;
 		z-index: 1000;
-		background: rgba(63, 63, 63, 0.5);
+		/* background: rgba(63, 63, 63, 0.5); */
 		border-radius: 10px;
 		margin: 5px;
 	}
 
 	.hamburger {
 		color: #fff;
-		font-size: 24px;
+		font-size: 20px;
 		cursor: pointer;
-		padding: 10px;
+		padding: 8px;
+		background: rgba(63, 63, 63, 1);
+		border-radius: 7px;
 	}
 
 	div.container {
@@ -222,5 +229,12 @@
 		width: 100%;
 		height: 400px;
 		border: none;
+	}
+
+	hr {
+		width: 100%;
+		border: 1px solid white;
+		opacity: 0.5;
+		margin: 10px 0;
 	}
 </style>

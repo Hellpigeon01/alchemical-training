@@ -34,17 +34,27 @@
 				<h3 style="color: white;">FOLLOW US</h3>
 				<div class="social-icons">
 					<a
-						href="https://www.facebook.com/abigail.crowe.92"
-						target="_blank"
-						class="fab fa-facebook-f"
-					>&nbsp;</a>
-					<a href="https://www.twitter.com" target="_blank" class="fab fa-twitter">&nbsp;</a>
-					<a
 						href="https://www.instagram.com/alchemicaltraining/"
 						target="_blank"
-						class="fab fa-instagram"
-					>&nbsp;</a>
-					<a href="https://www.linkedin.com" target="_blank" class="fab fa-linkedin-in">&nbsp;</a>
+						class="fab fa-instagram">&nbsp;</a
+					>
+					<a
+						href="https://www.linkedin.com/in/abigail-crowe-b7368b320/"
+						target="_blank"
+						class="fab fa-linkedin-in">&nbsp;</a
+					>
+					<a
+						href="https://www.facebook.com/abigail.crowe.92"
+						target="_blank"
+						class="fab fa-facebook-f">&nbsp;</a
+					>
+					<a href="https://x.com/acalchemical" target="_blank" aria-label="X" class="social-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-icon">
+							<path
+								d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+							/>
+						</svg>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -101,9 +111,21 @@
 		margin: 0 10px;
 		text-decoration: none;
 		font-size: 24px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
 	}
+
 	.social-icons a:hover {
 		color: #7b0293;
+	}
+
+	.social-icons .svg-icon {
+		width: 24px;
+		height: 24px;
+		fill: currentColor;
+		position: relative;
+		top: 4px;
 	}
 
 	/* Media Queries for responsiveness */
