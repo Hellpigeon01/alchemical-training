@@ -20,19 +20,4 @@
 	.button-link:hover {
 		background-color: #5f0171;
 	}
-
-	@media (max-width: 768px) {
-		.quote {
-			width: 100%;
-			padding: 20px 0;
-			flex-direction: column;
-			align-items: center;
-			text-align: center; /* Center align text */
-		}
-
-		.quote div {
-			width: 100%;
-			margin-bottom: 10px;
-		}
-	}
 </style>

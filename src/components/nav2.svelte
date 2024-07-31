@@ -55,11 +55,6 @@
 		background-color: #4b0163;
 	}
 
-	.menu-item:active,
-	.menu-item.active {
-		background-color: #a340b3;
-	}
-
 	@media (max-width: 768px) {
 		.menu-item {
 			padding: 0.5rem 1rem; /* Adjust padding for smaller screens */

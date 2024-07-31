@@ -57,11 +57,9 @@
 			>
 			<a href="#blog" on:click={closeMenu} alt="Alchemical-Training Blog">BLOG</a>
 			<a href="#contact" on:click={closeMenu} alt="Get in Touch">CONTACT US!</a>
-			<a href="javascript:void(0)" on:click={openModal} alt="Get a Free Consult"
-				>Free! Consultation</a
-			>
+			<a href="&nbsp;" on:click={openModal} alt="Get a Free Consult">Free! Consultation</a>
 			<hr />
-			<a href="javascript:void(0)" on:click={toggleSubMenu} alt="Social Media Menu">Social Media</a>
+			<a href="&nbsp;" on:click={toggleSubMenu} alt="Social Media Menu">Social Media</a>
 			{#if $isSubMenuOpen}
 				<div class="submenu">
 					<a href="https://www.instagram.com/alchemicaltraining/" target="_blank">Instagram</a>
@@ -78,8 +76,9 @@
 {#if $isModalOpen}
 	<div class="modal" on:click={closeModal}>
 		<div class="modal-content" on:click|stopPropagation>
-			<span class="close" on:click={closeModal}>&times;</span>
-			<iframe src="https://calendly.com/alchemicaltraining" frameborder="0"></iframe>
+			<button class="close" on:click={closeModal} aria-label="Close Modal">&times;</button>
+			<iframe src="https://calendly.com/alchemicaltraining" frameborder="0" title="Calendly"
+			></iframe>
 		</div>
 	</div>
 {/if}
