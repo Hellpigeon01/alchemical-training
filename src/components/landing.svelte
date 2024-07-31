@@ -26,7 +26,9 @@
 			</div>
 			<div><h1>ALCHEMICAL</h1></div>
 			<div><h2 class="h2-1">TRAINING</h2></div>
-			<div><h3>We've Got Your Formula!<br />Redefining Transformation At Any Age...</h3></div>
+			<div>
+				<h3>Create the Formula for Success<br />Redefining Transformation At Any Age...</h3>
+			</div>
 			<div>
 				<p>
 					<i>al·chem·i·cal</i> (adj) involving a seemingly magical process <br />of transformation,

@@ -6,36 +6,38 @@
 	<div class="banner-message">
 		<div class="marquee">
 			<h3>
-				Private Gym &bull; One-on-One Training &bull; On-line Training &bull; Workout Plan &bull;
-				Fitness Goals &bull; Strength Training &bull; Cardio &bull; Muscle Building &bull; Home
-				Workouts &bull; Nutrition &bull; Personal Training &bull; Fitness &bull; Fitness Tips &bull;
-				Athletic Training &bull; Weightlifting &bull; Free Motion Assessment &bull; Endurance &bull;
-				Flexibility &bull; Healthy Choices &bull; Improved Lifestyle &bull; Core Stability &bull;
-				Training &bull; Self-Improvement &bull; Warm-Ups &bull; Form &bull; Fitness Coaching &bull;
-				Bodybuilding &bull; Weightloss &bull; Private Gym &bull; One-on-One Training &bull; On-line
-				Training &bull; Workout Plan &bull; Fitness Goals &bull; Strength Training &bull; Cardio
-				&bull; Muscle Building &bull; Home Workouts &bull; Nutrition &bull; Personal Training &bull;
-				Fitness &bull; Fitness Tips &bull; Athletic Training &bull; Weightlifting &bull; Free Motion
-				Assessment &bull; Endurance &bull; Flexibility &bull; Healthy Choices &bull; Improved
-				Lifestyle &bull; Core Stability &bull; Training &bull; Self-Improvement &bull; Warm-Ups
-				&bull; Form &bull; Fitness Coaching &bull; Bodybuilding &bull; Weightloss &bull;
+				Wellness &bull; Private Gym &bull; One-on-One Training &bull; On-line Training &bull;
+				Workout Plan &bull; Fitness Goals &bull; Strength Training &bull; Cardio &bull; Muscle
+				Building &bull; Home Workouts &bull; Nutrition &bull; Personal Training &bull; Fitness
+				&bull; Fitness Tips &bull; Athletic Training &bull; Free Motion Assessment &bull; Endurance
+				&bull; Flexibility &bull; Healthy Choices &bull; Improved Lifestyle &bull; Core Stability
+				&bull; Training &bull; Self-Improvement &bull; Warm-Ups &bull; Form &bull; Fitness Coaching
+				&bull; Weightloss &bull; Private Gym &bull; One-on-One Training &bull; On-line &bull;
+				Functional Fitness &bull; Training &bull; Workout Plan &bull; Fitness Goals &bull; Strength
+				Training &bull; Cardio &bull; Muscle Building &bull; Home Workouts &bull; Nutrition &bull;
+				Personal Training &bull; Fitness &bull; Fitness Tips &bull; Athletic Training &bull; Free
+				Motion &bull; Exercise &bull; Assessment &bull; Endurance &bull; Flexibility &bull; Healthy
+				Choices &bull; Improved Lifestyle &bull; Core Stability &bull; Training &bull;
+				Self-Improvement &bull; Warm-Ups &bull; Form &bull; Fitness Coaching &bull; Bodybuilding
+				&bull; Weightloss &bull; Free Movement Assessment
 			</h3>
 		</div>
 		<div class="marquee reverse">
 			<h3>
-				Private Gym &bull; One-on-One Training &bull; On-line Training &bull; Workout Plan &bull;
-				Fitness Goals &bull; Strength Training &bull; Cardio &bull; Muscle Building &bull; Home
-				Workouts &bull; Nutrition &bull; Personal Training &bull; Fitness &bull; Fitness Tips &bull;
-				Athletic Training &bull; Weightlifting &bull; Free Motion Assessment &bull; Endurance &bull;
-				Flexibility &bull; Healthy Choices &bull; Improved Lifestyle &bull; Core Stability &bull;
-				Training &bull; Self-Improvement &bull; Warm-Ups &bull; Form &bull; Fitness Coaching &bull;
-				Bodybuilding &bull; Weightloss &bull; Private Gym &bull; One-on-One Training &bull; On-line
-				Training &bull; Workout Plan &bull; Fitness Goals &bull; Strength Training &bull; Cardio
-				&bull; Muscle Building &bull; Home Workouts &bull; Nutrition &bull; Personal Training &bull;
-				Fitness &bull; Fitness Tips &bull; Athletic Training &bull; Weightlifting &bull; Free Motion
-				Assessment &bull; Endurance &bull; Flexibility &bull; Healthy Choices &bull; Improved
-				Lifestyle &bull; Core Stability &bull; Training &bull; Self-Improvement &bull; Warm-Ups
-				&bull; Form &bull; Fitness Coaching &bull; Bodybuilding &bull; Weightloss &bull;
+				Wellness &bull; Private Gym &bull; One-on-One Training &bull; On-line Training &bull;
+				Workout Plan &bull; Fitness Goals &bull; Strength Training &bull; Cardio &bull; Muscle
+				Building &bull; Home Workouts &bull; Nutrition &bull; Personal Training &bull; Fitness
+				&bull; Fitness Tips &bull; Athletic Training &bull; Free Motion Assessment &bull; Endurance
+				&bull; Flexibility &bull; Healthy Choices &bull; Improved Lifestyle &bull; Core Stability
+				&bull; Training &bull; Self-Improvement &bull; Warm-Ups &bull; Form &bull; Fitness Coaching
+				&bull; Weightloss &bull; Private Gym &bull; One-on-One Training &bull; On-line &bull;
+				Functional Fitness &bull; Training &bull; Workout Plan &bull; Fitness Goals &bull; Strength
+				Training &bull; Cardio &bull; Muscle Building &bull; Home Workouts &bull; Nutrition &bull;
+				Personal Training &bull; Fitness &bull; Fitness Tips &bull; Athletic Training &bull; Free
+				Motion &bull; Exercise &bull; Assessment &bull; Endurance &bull; Flexibility &bull; Healthy
+				Choices &bull; Improved Lifestyle &bull; Core Stability &bull; Training &bull;
+				Self-Improvement &bull; Warm-Ups &bull; Form &bull; Fitness Coaching &bull; Bodybuilding
+				&bull; Weightloss &bull; Free Movement Assessment
 			</h3>
 		</div>
 	</div>

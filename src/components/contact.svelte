@@ -1,7 +1,7 @@
 <script>
 	let name = '';
-    let email = '';
-    let message = '';
+	let email = '';
+	let message = '';
 
 	import { writable } from 'svelte/store';
 	// Store to manage the thank you modal's open/close state
@@ -12,7 +12,7 @@
 		// form submission logic here (e.g., send data to a server)
 
 		const myForm = event.target;
-  		const formData = new FormData(myForm);
+		const formData = new FormData(myForm);
 
 		fetch('/images/favicon.png', {
 			method: 'POST',
@@ -49,11 +49,11 @@
 	<!-- Actual Form -->
 	<div>
 		<label for="name">Name:</label>
-		<input type="text" name="name" id="name" required bind:value={name}/>
+		<input type="text" name="name" id="name" required bind:value={name} />
 	</div>
 	<div>
 		<label for="email">Email:</label>
-		<input type="email" name="email" id="email" required bind:value={email}/>
+		<input type="email" name="email" id="email" required bind:value={email} />
 	</div>
 	<div>
 		<label for="message">Message:</label>
@@ -66,7 +66,9 @@
 {#if $isModalOpen}
 	<div class="modal">
 		<div class="modal-content">
-			<span class="close" on:click={closeModal} on:keypress={closeModal} tabindex="0" role="button">&times;</span>
+			<span class="close" on:click={closeModal} on:keypress={closeModal} tabindex="0" role="button"
+				>&times;</span
+			>
 			<h2>Thank You!</h2>
 			Your message has been sent.
 		</div>
@@ -154,7 +156,7 @@
 
 	.close:hover,
 	.close:focus {
-		color: black;
+		color: white;
 		text-decoration: none;
 		cursor: pointer;
 	}

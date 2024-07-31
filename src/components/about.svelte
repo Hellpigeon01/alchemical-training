@@ -33,18 +33,18 @@
 					personalized sessions. Every moment spent acquiring certifications, graduating college,
 					studying, lifting, and personal training has been driven by a pursuit of excellence and a
 					desire to serve others. My purpose in life is centered around my clients, not myself. I
-					love my job because I see people transform, becoming autonomous, more confident,
-					pain-free, and stronger both physically and mentally.
+					love my job because I see people transform. Clients generate autonomy, acquire greater
+					confidence, move pain pain-free, and are stronger both physically and mentally.
 				</p>
 				<p>
 					I witness an alchemical process unfold, despite the calculated and methodical efforts put
-					in by both my clients and me.
+					in by both my clients and myself.
 				</p>
 				<p>
 					Strength training is a significant commitment and can often seem overwhelming or even
 					dangerous. However, strength comes in many forms. My goal is to help clients achieve their
 					objectives through any necessary modality—whether it's strength, stability, power,
-					endurance, or more. A healthy, prepared individual is a confident individual, and a
+					hypertrophy, or endurance. A healthy, prepared individual is a confident individual, and
 					confident people are ready to conquer the world. I hope to be a part of your journey to
 					success.
 				</p>
@@ -114,7 +114,7 @@
 	.abigail .list ul {
 		width: 100%;
 		list-style-type: none;
-		padding: 0;
+		padding: 5px;
 		margin: 0;
 		text-align: center;
 		color: #fff;
@@ -135,11 +135,19 @@
 		.abigail .list {
 			min-height: 400px;
 		}
+
+		ul {
+			padding: 5px;
+		}
 	}
 
 	@media (max-width: 480px) {
 		.abigail .list {
 			min-height: 300px;
+		}
+
+		ul {
+			padding: 5px;
 		}
 	}
 </style>

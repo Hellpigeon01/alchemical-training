@@ -2,7 +2,7 @@
 	let faqs = [
 		{
 			question: 'WHAT SERVICES DO YOU OFFER?',
-			answer: '1-on-1 online and hybrid coaching. Team online and hybrid coaching.'
+			answer: '1-on-1 in-person and hybrid coaching. 1-on-1 online coaching.'
 		},
 		{
 			question: 'IS NUTRITIONAL GUIDANCE OFFERED TO CLIENTS THAT SIGN UP FOR COACHING?',
