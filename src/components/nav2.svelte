@@ -5,7 +5,7 @@
 		{ name: 'Home', link: '/' },
 		{ name: 'About', link: '/#about' },
 		{ name: 'Partners', link: '/#partners' },
-		{ name: 'Blog', link: '/#blog' },
+		{ name: 'Blog', link: '/posts' },
 		{ name: 'Contact Us', link: '/#contactus' }
 	];
 
