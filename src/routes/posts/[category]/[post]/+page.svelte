@@ -20,57 +20,50 @@
 		style={`background-image: url(${frontmatter.primary_image}); background-position-y: ${typeof frontmatter.banner_y !== 'undefined' ? frontmatter.banner_y : 'left'};`}
 	>
 		<div class="oversection">
-			<div class="inner">
+			<div>
 				<h1>{frontmatter.title}</h1>
-				<div class="feature-text-block">
+				<div>
 					{@html frontmatter.summary}
-					<div class="date">
+					<div>
 						<span>{localDate}</span><br />
-						<span
-							><a class="cat" href={`/posts/${data.category.slug}/`}>{data.category.title}</a></span
-						>
+						<span><a href={`/posts/${data.category.slug}/`}>{data.category.title}</a></span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	{#if frontmatter.video}
-		<div class="video">
-			<iframe
-				class="video-frame"
-				src="https://www.youtube.com/embed/{frontmatter.video}"
-				title="YouTube video player"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				allowfullscreen
-			></iframe>
-		</div>
-	{/if}
-
-	<article class="post-body" style={'background-image: url(' + frontmatter.body_image + ')'}>
+	<article style={'background-image: url(' + frontmatter.body_image + ')'}>
 		<div class="oversection">
-			<div class="inner">
+			<div>
 				<div data-sveltekit-reload class="feature-text-block">
 					{@html htmlContent}
 				</div>
 			</div>
-			<div class="back">
+			<div>
 				<a href={`/posts/${data.category.slug}`}>Back To {data.category.title}</a>
-				<span on:click={goBack} on:keypress={goBack} role="button" tabindex="-1"
-					>Back To Whatever You Were Reading Before</span
-				>
 			</div>
 		</div>
 	</article>
 </div>
 
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-	href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
-	rel="stylesheet"
-/>
-
 <style>
+	.title {
+		text-align: center;
+	}
+
+	.oversection {
+		background-color: rgba(0, 0, 0, 0.5);
+		border: 3px solid #747474;
+		border-radius: 15px;
+		margin-bottom: 20px;
+		padding: 20px;
+	}
+
+	.post {
+		max-width: 800px;
+		margin: 0 auto;
+		font-size: 1.5rem;
+		padding: 20px;
+	}
 </style>
