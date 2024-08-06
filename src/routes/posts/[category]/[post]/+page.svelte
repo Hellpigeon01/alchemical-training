@@ -20,23 +20,26 @@
 		style={`background-image: url(${frontmatter.primary_image}); background-position-y: ${typeof frontmatter.banner_y !== 'undefined' ? frontmatter.banner_y : 'left'};`}
 	>
 		<div class="oversection">
+
+			<h1>{frontmatter.title}</h1>
 			<div>
-				<h1>{frontmatter.title}</h1>
+				<img src="{frontmatter.header_image}" alt="{frontmatter.title}" />
+			</div>
+			<div>
+				{@html frontmatter.summary}
 				<div>
-					{@html frontmatter.summary}
-					<div>
-						<span>{localDate}</span><br />
-						<span><a href={`/posts/${data.category.slug}/`}>{data.category.title}</a></span>
-					</div>
+					<span>{localDate}</span><br />
+					<span><a href={`/posts/${data.category.slug}/`}>{data.category.title}</a></span>
 				</div>
 			</div>
+
 		</div>
 	</section>
 
 	<article style={'background-image: url(' + frontmatter.body_image + ')'}>
 		<div class="oversection">
 			<div>
-				<div data-sveltekit-reload class="feature-text-block">
+				<div data-sveltekit-reload class="content">
 					{@html htmlContent}
 				</div>
 			</div>

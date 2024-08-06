@@ -30,6 +30,9 @@
 					<div>
 						{@html category.frontmatter.summary}
 					</div>
+					<div>
+						<img src="{category.frontmatter.category_image}" alt="{category.frontmatter.title}" />
+					</div>
 				</div>
 			</div>
 		</a>
